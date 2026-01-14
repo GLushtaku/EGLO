@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-import createNextIntlPlugin from "next-intl/plugin";
+import type { NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin("./next-intl.config.ts");
+const withNextIntl = createNextIntlPlugin('./next-intl.config.ts');
 
 const nextConfig: NextConfig = {
   output: 'standalone',
@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   },
   async rewrites() {
     const apiUrl = process.env.NEXT_API_URL;
-    
+
     // Only add rewrite if NEXT_API_URL is set
     if (!apiUrl) {
       console.warn('⚠️ NEXT_API_URL is not set, skipping API rewrite');
@@ -19,10 +19,10 @@ const nextConfig: NextConfig = {
 
     // Ensure the URL doesn't end with a slash
     const baseUrl = apiUrl.endsWith('/') ? apiUrl.slice(0, -1) : apiUrl;
-    
+
     return [
       {
-        source: "/api/:path*",
+        source: '/api/:path*',
         destination: `${baseUrl}/api/:path*`,
       },
     ];
