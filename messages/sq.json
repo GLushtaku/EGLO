@@ -207,7 +207,8 @@
     "actions": {
       "login": "Hyni",
       "logout": "Dilni",
-      "cart": "Shporta"
+      "cart": "Shporta",
+      "addProduct": "Shto Produkt"
     }
   },
   "footer": {
@@ -246,7 +247,8 @@
   "navigation": {
     "inspiration": "Inspirimi",
     "all": "Të Gjitha",
-    "menu": "Meny"
+    "menu": "Meny",
+    "addProduct": "Shto Produkt"
   },
   "categories": {
     "interiorLights": {
@@ -441,6 +443,7 @@
     "title": "Zbuloni Asortimentin Tonë",
     "subtitle": "Eksploroni gamën tonë gjithëpërfshirëse të zgjidhjeve të ndriçimit të dizajnuara për të përmirësuar çdo hapësirë në shtëpinë tuaj",
     "shopNow": "Bli Tani",
+    "categoryFallbackDescription": "Zbuloni produktet tona me cilësi të lartë të ndriçimit",
     "categories": {
       "pendantLights": {
         "title": "Drita e Varur",

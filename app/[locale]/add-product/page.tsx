@@ -1,375 +1,428 @@
-"use client"
+'use client';
 
-import { useState } from "react"
-import { Button } from "../../../components/Button"
-import { ArrowLeft, ArrowRight, Check, Plus, X } from "lucide-react"
-import Link from "next/link"
-import Image from "next/image"
-import categoriesData from "../../../data/categories.json"
-import { useTranslations } from 'next-intl'
+import { useState, useEffect } from 'react';
+import { useRouter, useParams } from 'next/navigation';
+import { Button } from '../../../components/Button';
+import { ArrowLeft, ArrowRight, Check, Plus, X } from 'lucide-react';
+import Link from 'next/link';
+import Image from 'next/image';
+import categoriesData from '../../../data/categories.json';
+import { useTranslations } from 'next-intl';
+import { useAuth } from '@/lib/useAuth';
+import { useCreateProduct } from '@/hooks/useCreateProduct';
 
-type Step = 1 | 2 | 3 | 4
+type Step = 1 | 2 | 3 | 4;
 
 interface FieldItem {
-  id: string
-  label: string
-  value: string
+  id: string;
+  label: string;
+  value: string;
 }
 
 interface CategoryFields {
-  [key: string]: FieldItem[]
+  [key: string]: FieldItem[];
 }
 
 interface ProductImage {
-  id: string
-  file: File
-  preview: string
+  id: string;
+  file: File;
+  preview: string;
 }
 
 interface CategoryNode {
-  id: string
-  nameKey: string
-  descriptionKey: string
-  images?: { image1?: string; image2?: string }
-  subcategories: CategoryNode[]
+  id: string;
+  nameKey: string;
+  descriptionKey: string;
+  images?: { image1?: string; image2?: string };
+  subcategories: CategoryNode[];
 }
 
 export default function AddProductPage() {
-  const [currentStep, setCurrentStep] = useState<Step>(1)
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitError, setSubmitError] = useState<string | null>(null)
-  const [submitSuccess, setSubmitSuccess] = useState(false)
-  
-  // Log component initialization
-  console.log("🎯 [FRONTEND] AddProductPage component initialized")
-  console.log("🎯 [FRONTEND] Initial state:", { currentStep, isSubmitting, submitError, submitSuccess })
+  const router = useRouter();
+  const params = useParams();
+  const locale = params.locale as string;
+  const { user, isAuthenticated, isLoading: authLoading } = useAuth();
+  const createProductMutation = useCreateProduct();
+
+  const [currentStep, setCurrentStep] = useState<Step>(1);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+
+  // Check if user is admin
+  // useEffect(() => {
+  //   if (!authLoading) {
+  //     if (!isAuthenticated) {
+  //       router.push(`/${locale}/login`);
+  //       return;
+  //     }
+
+  //     // Debug: Log user and roles
+  //     console.log('🔍 [AddProduct] User:', user);
+  //     console.log('🔍 [AddProduct] Roles:', user?.roles);
+  //     console.log('🔍 [AddProduct] Roles type:', typeof user?.roles);
+  //     console.log('🔍 [AddProduct] Is array?', Array.isArray(user?.roles));
+
+  //     const isAdmin = user?.roles?.some(
+  //       (role) =>
+  //         typeof role === 'string' &&
+  //         (role.toLowerCase() === 'admin' ||
+  //           role.toLowerCase() === 'administrator')
+  //     );
+
+  //     console.log('🔍 [AddProduct] Is Admin?', isAdmin);
+
+  //     if (!isAdmin) {
+  //       console.log('❌ [AddProduct] Not admin, redirecting to home');
+  //       router.push(`/${locale}`);
+  //       return;
+  //     }
+  //   }
+  // }, [isAuthenticated, authLoading, user, router, locale]);
+
+  // // Show loading while checking auth
+  // if (authLoading) {
+  //   return (
+  //     <div className="min-h-screen flex items-center justify-center">
+  //       <div className="w-8 h-8 border-4 border-teal-600 border-t-transparent rounded-full animate-spin" />
+  //     </div>
+  //   );
+  // }
+
+  // // Show nothing if redirecting (will be handled by useEffect)
+  // if (
+  //   !isAuthenticated ||
+  //   !user?.roles?.some(
+  //     (role) =>
+  //       typeof role === 'string' &&
+  //       (role.toLowerCase() === 'admin' ||
+  //         role.toLowerCase() === 'administrator')
+  //   )
+  // ) {
+  //   return null;
+  // }
   const [formData, setFormData] = useState({
-    name: "",
-    description: "",
-    price: "",
-    category: "",
-    subcategory: ""
-  })
+    name: '',
+    description: '',
+    price: '',
+    category: '',
+    subcategory: '',
+  });
 
   // Product images state
-  const [productImages, setProductImages] = useState<ProductImage[]>([])
+  const [productImages, setProductImages] = useState<ProductImage[]>([]);
 
   // Dynamic fields state
   const [categoryFields, setCategoryFields] = useState<CategoryFields>({
-    "product-details": [],
-    "dimensions": [],
-    "technical-information": [],
-    "other-information": []
-  })
+    'product-details': [],
+    dimensions: [],
+    'technical-information': [],
+    'other-information': [],
+  });
 
   // Toggle state for showing input fields
-  const [showInputs, setShowInputs] = useState<{[key: string]: boolean}>({
-    "product-details": false,
-    "dimensions": false,
-    "technical-information": false,
-    "other-information": false
-  })
+  const [showInputs, setShowInputs] = useState<{ [key: string]: boolean }>({
+    'product-details': false,
+    dimensions: false,
+    'technical-information': false,
+    'other-information': false,
+  });
 
   // Input values state
-  const [inputValues, setInputValues] = useState<{[key: string]: {label: string, value: string}}>({
-    "product-details": { label: "", value: "" },
-    "dimensions": { label: "", value: "" },
-    "technical-information": { label: "", value: "" },
-    "other-information": { label: "", value: "" }
-  })
+  const [inputValues, setInputValues] = useState<{
+    [key: string]: { label: string; value: string };
+  }>({
+    'product-details': { label: '', value: '' },
+    dimensions: { label: '', value: '' },
+    'technical-information': { label: '', value: '' },
+    'other-information': { label: '', value: '' },
+  });
 
   const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [field]: value
-    }))
-  }
+      [field]: value,
+    }));
+  };
 
-  const handleDynamicInputChange = (category: string, field: 'label' | 'value', value: string) => {
-    setInputValues(prev => ({
+  const handleDynamicInputChange = (
+    category: string,
+    field: 'label' | 'value',
+    value: string
+  ) => {
+    setInputValues((prev) => ({
       ...prev,
       [category]: {
         ...prev[category],
-        [field]: value
-      }
-    }))
-  }
+        [field]: value,
+      },
+    }));
+  };
 
   const toggleInputs = (category: string) => {
-    setShowInputs(prev => ({
+    setShowInputs((prev) => ({
       ...prev,
-      [category]: !prev[category]
-    }))
-  }
+      [category]: !prev[category],
+    }));
+  };
 
   const saveField = (category: string) => {
-    const { label, value } = inputValues[category]
-    console.log(`📝 [FRONTEND] Saving field for category "${category}":`, { label, value })
-    
+    const { label, value } = inputValues[category];
+    console.log(`📝 [FRONTEND] Saving field for category "${category}":`, {
+      label,
+      value,
+    });
+
     if (label.trim() && value.trim()) {
       const newField: FieldItem = {
         id: Date.now().toString(),
         label: label.trim(),
-        value: value.trim()
-      }
-      
-      console.log(`✅ [FRONTEND] Created new field:`, newField)
-      
-      setCategoryFields(prev => {
+        value: value.trim(),
+      };
+
+      console.log(`✅ [FRONTEND] Created new field:`, newField);
+
+      setCategoryFields((prev) => {
         const updated = {
           ...prev,
-          [category]: [...prev[category], newField]
-        }
-        console.log(`📝 [FRONTEND] Updated category fields for "${category}":`, updated[category])
-        return updated
-      })
+          [category]: [...prev[category], newField],
+        };
+        console.log(
+          `📝 [FRONTEND] Updated category fields for "${category}":`,
+          updated[category]
+        );
+        return updated;
+      });
 
       // Clear inputs and hide them
-      setInputValues(prev => ({
+      setInputValues((prev) => ({
         ...prev,
-        [category]: { label: "", value: "" }
-      }))
-      setShowInputs(prev => ({
+        [category]: { label: '', value: '' },
+      }));
+      setShowInputs((prev) => ({
         ...prev,
-        [category]: false
-      }))
-      
-      console.log(`🧹 [FRONTEND] Cleared inputs for category "${category}"`)
+        [category]: false,
+      }));
+
+      console.log(`🧹 [FRONTEND] Cleared inputs for category "${category}"`);
     } else {
-      console.log(`❌ [FRONTEND] Cannot save field - missing label or value for category "${category}"`)
+      console.log(
+        `❌ [FRONTEND] Cannot save field - missing label or value for category "${category}"`
+      );
     }
-  }
+  };
 
   const deleteField = (category: string, fieldId: string) => {
-    setCategoryFields(prev => ({
+    setCategoryFields((prev) => ({
       ...prev,
-      [category]: prev[category].filter(field => field.id !== fieldId)
-    }))
-  }
+      [category]: prev[category].filter((field) => field.id !== fieldId),
+    }));
+  };
 
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const files = event.target.files
+    const files = event.target.files;
     if (files) {
-      Array.from(files).forEach(file => {
+      Array.from(files).forEach((file) => {
         if (file.type.startsWith('image/')) {
-          const reader = new FileReader()
+          const reader = new FileReader();
           reader.onload = (e) => {
             const newImage: ProductImage = {
-              id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+              id:
+                Date.now().toString() + Math.random().toString(36).substr(2, 9),
               file: file,
-              preview: e.target?.result as string
-            }
-            setProductImages(prev => [...prev, newImage])
-          }
-          reader.readAsDataURL(file)
+              preview: e.target?.result as string,
+            };
+            setProductImages((prev) => [...prev, newImage]);
+          };
+          reader.readAsDataURL(file);
         }
-      })
+      });
     }
-  }
+  };
 
   const removeImage = (imageId: string) => {
-    setProductImages(prev => prev.filter(img => img.id !== imageId))
-  }
+    setProductImages((prev) => prev.filter((img) => img.id !== imageId));
+  };
 
   const handleDragOver = (e: React.DragEvent) => {
-    e.preventDefault()
-    e.stopPropagation()
-  }
+    e.preventDefault();
+    e.stopPropagation();
+  };
 
   const handleDrop = (e: React.DragEvent) => {
-    e.preventDefault()
-    e.stopPropagation()
-    
-    const files = e.dataTransfer.files
+    e.preventDefault();
+    e.stopPropagation();
+
+    const files = e.dataTransfer.files;
     if (files) {
-      Array.from(files).forEach(file => {
+      Array.from(files).forEach((file) => {
         if (file.type.startsWith('image/')) {
-          const reader = new FileReader()
+          const reader = new FileReader();
           reader.onload = (e) => {
             const newImage: ProductImage = {
-              id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+              id:
+                Date.now().toString() + Math.random().toString(36).substr(2, 9),
               file: file,
-              preview: e.target?.result as string
-            }
-            setProductImages(prev => [...prev, newImage])
-          }
-          reader.readAsDataURL(file)
+              preview: e.target?.result as string,
+            };
+            setProductImages((prev) => [...prev, newImage]);
+          };
+          reader.readAsDataURL(file);
         }
-      })
+      });
     }
-  }
+  };
 
   const nextStep = () => {
     if (currentStep < 4) {
-      setCurrentStep((prev) => (prev + 1) as Step)
+      setCurrentStep((prev) => (prev + 1) as Step);
     }
-  }
+  };
 
   const prevStep = () => {
     if (currentStep > 1) {
-      setCurrentStep((prev) => (prev - 1) as Step)
+      setCurrentStep((prev) => (prev - 1) as Step);
     }
-  }
+  };
 
   const handleSubmit = async () => {
-    console.log("🚀 [FRONTEND] Starting product submission process...")
-    setIsSubmitting(true)
-    setSubmitError(null)
-    
+    setSubmitError(null);
+
+    // Validate required fields
+    if (!formData.name.trim()) {
+      setSubmitError('Product name is required');
+      return;
+    }
+    if (!formData.description.trim()) {
+      setSubmitError('Product description is required');
+      return;
+    }
+    if (!formData.price || parseFloat(formData.price) <= 0) {
+      setSubmitError('Valid product price is required');
+      return;
+    }
+
+    // Prepare the data for API submission
+    const productDetails = categoryFields['product-details'].reduce(
+      (acc, field) => {
+        acc[field.label] = field.value;
+        return acc;
+      },
+      {} as Record<string, string>
+    );
+
+    const dimensions = categoryFields['dimensions'].reduce((acc, field) => {
+      acc[field.label] = field.value;
+      return acc;
+    }, {} as Record<string, string>);
+
+    const technicalInfo = categoryFields['technical-information'].reduce(
+      (acc, field) => {
+        acc[field.label] = field.value;
+        return acc;
+      },
+      {} as Record<string, string>
+    );
+
+    const otherInfo = categoryFields['other-information'].reduce(
+      (acc, field) => {
+        acc[field.label] = field.value;
+        return acc;
+      },
+      {} as Record<string, string>
+    );
+
+    // Prepare data according to API requirements
+    const submissionData = {
+      name: formData.name,
+      description: formData.description,
+      price: parseFloat(formData.price),
+      productDetailsJson: JSON.stringify(productDetails),
+      dimensionsJson: JSON.stringify(dimensions),
+      technicalInfoJson: JSON.stringify(technicalInfo),
+      otherInfoJson: JSON.stringify(otherInfo),
+    };
+
     try {
-      console.log("📝 [FRONTEND] Validating form data...")
-      console.log("📝 [FRONTEND] Form data:", formData)
-      console.log("📝 [FRONTEND] Category fields:", categoryFields)
-      
-      // Validate required fields
-      if (!formData.name.trim()) {
-        console.error("❌ [FRONTEND] Validation failed: Product name is required")
-        throw new Error('Product name is required')
-      }
-      if (!formData.description.trim()) {
-        console.error("❌ [FRONTEND] Validation failed: Product description is required")
-        throw new Error('Product description is required')
-      }
-      if (!formData.price || parseFloat(formData.price) <= 0) {
-        console.error("❌ [FRONTEND] Validation failed: Valid product price is required")
-        throw new Error('Valid product price is required')
-      }
-      
-      console.log("✅ [FRONTEND] Validation passed")
+      const result = await createProductMutation.mutateAsync(submissionData);
 
-      // Prepare the data for API submission
-      const productDetails = categoryFields["product-details"].reduce((acc, field) => {
-        acc[field.label] = field.value
-        return acc
-      }, {} as Record<string, string>)
-      
-      const dimensions = categoryFields["dimensions"].reduce((acc, field) => {
-        acc[field.label] = field.value
-        return acc
-      }, {} as Record<string, string>)
-      
-      const technicalInfo = categoryFields["technical-information"].reduce((acc, field) => {
-        acc[field.label] = field.value
-        return acc
-      }, {} as Record<string, string>)
-      
-      const otherInfo = categoryFields["other-information"].reduce((acc, field) => {
-        acc[field.label] = field.value
-        return acc
-      }, {} as Record<string, string>)
-
-      const submissionData = {
-        name: formData.name,
-        description: formData.description,
-        price: formData.price,
-        category: formData.category,
-        subcategory: formData.subcategory,
-        productDetails,
-        dimensions,
-        technicalInfo,
-        otherInfo
-      }
-
-      console.log("📤 [FRONTEND] Prepared submission data:")
-      console.log("📤 [FRONTEND] - Basic info:", { name: submissionData.name, description: submissionData.description, price: submissionData.price, category: submissionData.category, subcategory: submissionData.subcategory })
-      console.log("📤 [FRONTEND] - Product details:", productDetails)
-      console.log("📤 [FRONTEND] - Dimensions:", dimensions)
-      console.log("📤 [FRONTEND] - Technical info:", technicalInfo)
-      console.log("📤 [FRONTEND] - Other info:", otherInfo)
-      console.log("📤 [FRONTEND] - Full payload:", JSON.stringify(submissionData, null, 2))
-
-      console.log("🌐 [FRONTEND] Sending request to /api/products/add...")
-      
-      // Get auth token from localStorage
-      // TODO: check this
-      const token = localStorage.getItem('auth_user')
-      console.log("🔐 [FRONTEND] Auth token:", token ? "Found" : "Not found")
-      console.log("🔐 [FRONTEND] Token value:", token ? `${token.substring(0, 20)}...` : "No token")
-      
-      // Check all localStorage keys to debug
-      console.log("🔐 [FRONTEND] All localStorage keys:", Object.keys(localStorage))
-      
-      const response = await fetch('/api/products/add', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          ...(token && { 'Authorization': `Bearer ${token}` })
-        },
-        body: JSON.stringify(submissionData),
-      })
-
-      console.log("📥 [FRONTEND] Received response:")
-      console.log("📥 [FRONTEND] - Status:", response.status)
-      console.log("📥 [FRONTEND] - Status text:", response.statusText)
-      console.log("📥 [FRONTEND] - Headers:", Object.fromEntries(response.headers.entries()))
-
-      const result = await response.json()
-      console.log("📥 [FRONTEND] - Response body:", result)
-
-      if (response.ok) {
-        console.log("✅ [FRONTEND] Product created successfully!")
-        setSubmitSuccess(true)
+      if (result.success) {
+        setSubmitSuccess(true);
       } else {
-        console.error("❌ [FRONTEND] Error creating product:", result)
-        setSubmitError(result.message || 'Failed to create product. Please try again.')
+        setSubmitError(
+          result.message || 'Failed to create product. Please try again.'
+        );
       }
     } catch (error) {
-      console.error("💥 [FRONTEND] Exception occurred:", error)
-      console.error("💥 [FRONTEND] Error details:", {
-        message: error instanceof Error ? error.message : 'Unknown error',
-        stack: error instanceof Error ? error.stack : undefined
-      })
-      setSubmitError(error instanceof Error ? error.message : 'Failed to create product. Please try again.')
-    } finally {
-      console.log("🏁 [FRONTEND] Submission process completed")
-      setIsSubmitting(false)
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : 'Failed to create product. Please try again.'
+      );
     }
-  }
+  };
 
   const steps = [
-    { number: 1, title: "Product Information", description: "Product name and pricing details" },
-    { number: 2, title: "Category Selection", description: "Select category and subcategory" },
-    { number: 3, title: "Product Images", description: "Upload product images" },
-    { number: 4, title: "Review & Create", description: "Review your product and create it" }
-  ]
+    {
+      number: 1,
+      title: 'Product Information',
+      description: 'Product name and pricing details',
+    },
+    {
+      number: 2,
+      title: 'Category Selection',
+      description: 'Select category and subcategory',
+    },
+    {
+      number: 3,
+      title: 'Product Images',
+      description: 'Upload product images',
+    },
+    {
+      number: 4,
+      title: 'Review & Create',
+      description: 'Review your product and create it',
+    },
+  ];
 
   // Get subcategories based on selected category
-  const tCategories = useTranslations('categories')
-  const categories = categoriesData.categories as unknown as CategoryNode[]
-  const selectedCategory = categories.find(cat => cat.id === formData.category)
-  const subcategories = selectedCategory?.subcategories ?? []
-  
+  const tCategories = useTranslations('categories');
+  const categories = categoriesData.categories as unknown as CategoryNode[];
+  const selectedCategory = categories.find(
+    (cat) => cat.id === formData.category
+  );
+  const subcategories = selectedCategory?.subcategories ?? [];
+
   // Helper function to get category name safely
   const getCategoryName = (nameKey: string) => {
     try {
-      const cleanKey = nameKey.replace('categories.', '')
-      return tCategories(cleanKey)
+      const cleanKey = nameKey.replace('categories.', '');
+      return tCategories(cleanKey);
     } catch (error) {
-      console.warn('Translation error for key:', nameKey, error)
-      return nameKey.replace('categories.', '')
+      console.warn('Translation error for key:', nameKey, error);
+      return nameKey.replace('categories.', '');
     }
-  }
+  };
 
   const renderCategorySection = (categoryKey: string, title: string) => {
-    const fields = categoryFields[categoryKey]
-    const isShowingInputs = showInputs[categoryKey]
-    const inputData = inputValues[categoryKey]
+    const fields = categoryFields[categoryKey];
+    const isShowingInputs = showInputs[categoryKey];
+    const inputData = inputValues[categoryKey];
 
     // Get placeholder based on category
     const getLabelPlaceholder = (category: string) => {
       switch (category) {
-        case "product-details":
-          return "e.g., Material Number"
-        case "dimensions":
-          return "e.g., Article Height"
-        case "technical-information":
-          return "e.g., Protection Class"
-        case "other-information":
-          return "e.g., Illuminant Type"
+        case 'product-details':
+          return 'e.g., Material Number';
+        case 'dimensions':
+          return 'e.g., Article Height';
+        case 'technical-information':
+          return 'e.g., Protection Class';
+        case 'other-information':
+          return 'e.g., Illuminant Type';
         default:
-          return "Field Name"
+          return 'Field Name';
       }
-    }
+    };
 
     return (
       <div className="space-y-4">
@@ -394,7 +447,13 @@ export default function AddProductPage() {
                 <input
                   type="text"
                   value={inputData.label}
-                  onChange={(e) => handleDynamicInputChange(categoryKey, 'label', e.target.value)}
+                  onChange={(e) =>
+                    handleDynamicInputChange(
+                      categoryKey,
+                      'label',
+                      e.target.value
+                    )
+                  }
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   placeholder={getLabelPlaceholder(categoryKey)}
                 />
@@ -406,7 +465,13 @@ export default function AddProductPage() {
                 <input
                   type="text"
                   value={inputData.value}
-                  onChange={(e) => handleDynamicInputChange(categoryKey, 'value', e.target.value)}
+                  onChange={(e) =>
+                    handleDynamicInputChange(
+                      categoryKey,
+                      'value',
+                      e.target.value
+                    )
+                  }
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   placeholder="Enter value"
                 />
@@ -436,10 +501,17 @@ export default function AddProductPage() {
         {fields.length > 0 && (
           <div className="space-y-2">
             {fields.map((field) => (
-              <div key={field.id} className="flex items-center justify-between bg-teal-50 border border-teal-200 rounded-lg p-3">
+              <div
+                key={field.id}
+                className="flex items-center justify-between bg-teal-50 border border-teal-200 rounded-lg p-3"
+              >
                 <div className="flex-1">
-                  <span className="text-sm font-medium text-teal-800">{field.label}:</span>
-                  <span className="text-sm text-teal-700 ml-2">{field.value}</span>
+                  <span className="text-sm font-medium text-teal-800">
+                    {field.label}:
+                  </span>
+                  <span className="text-sm text-teal-700 ml-2">
+                    {field.value}
+                  </span>
                 </div>
                 <button
                   onClick={() => deleteField(categoryKey, field.id)}
@@ -452,15 +524,18 @@ export default function AddProductPage() {
           </div>
         )}
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 to-blue-50 flex items-center justify-center p-4 pb-8">
       <div className="w-full max-w-4xl">
         {/* Back to Dashboard Link */}
         <div className="absolute top-4 left-4">
-          <Link href="/" className="text-teal-600 hover:text-teal-700 flex items-center gap-2">
+          <Link
+            href="/"
+            className="text-teal-600 hover:text-teal-700 flex items-center gap-2"
+          >
             ← Back to Dashboard
           </Link>
         </div>
@@ -468,7 +543,9 @@ export default function AddProductPage() {
         {/* Header */}
         <div className="text-center mb-8 pt-8">
           <h1 className="text-3xl font-bold text-gray-900">Add New Product</h1>
-          <p className="text-gray-600 mt-2">Create a new product in 3 simple steps</p>
+          <p className="text-gray-600 mt-2">
+            Create a new product in 3 simple steps
+          </p>
         </div>
 
         {/* Main Card */}
@@ -479,21 +556,29 @@ export default function AddProductPage() {
               {steps.map((step, index) => (
                 <div key={step.number} className="flex items-center flex-1">
                   <div className="flex flex-col items-center flex-1">
-                    <div className={`flex items-center justify-center w-10 h-10 rounded-full border-2 ${
-                      currentStep >= step.number 
-                        ? "bg-teal-600 border-teal-600 text-white" 
-                        : "bg-white border-gray-300 text-gray-500"
-                    }`}>
+                    <div
+                      className={`flex items-center justify-center w-10 h-10 rounded-full border-2 ${
+                        currentStep >= step.number
+                          ? 'bg-teal-600 border-teal-600 text-white'
+                          : 'bg-white border-gray-300 text-gray-500'
+                      }`}
+                    >
                       {currentStep > step.number ? (
                         <Check className="w-5 h-5" />
                       ) : (
-                        <span className="text-sm font-medium">{step.number}</span>
+                        <span className="text-sm font-medium">
+                          {step.number}
+                        </span>
                       )}
                     </div>
                     {index < steps.length - 1 && (
-                      <div className={`flex-1 h-0.5 mx-4 ${
-                        currentStep > step.number ? "bg-teal-600" : "bg-gray-300"
-                      }`} />
+                      <div
+                        className={`flex-1 h-0.5 mx-4 ${
+                          currentStep > step.number
+                            ? 'bg-teal-600'
+                            : 'bg-gray-300'
+                        }`}
+                      />
                     )}
                   </div>
                 </div>
@@ -503,12 +588,18 @@ export default function AddProductPage() {
               {steps.map((step) => (
                 <div key={step.number} className="text-center flex-1">
                   <div className="flex flex-col items-center">
-                    <p className={`text-sm font-medium ${
-                      currentStep >= step.number ? "text-teal-600" : "text-gray-500"
-                    }`}>
+                    <p
+                      className={`text-sm font-medium ${
+                        currentStep >= step.number
+                          ? 'text-teal-600'
+                          : 'text-gray-500'
+                      }`}
+                    >
                       {step.title}
                     </p>
-                    <p className="text-xs text-gray-400 mt-1">{step.description}</p>
+                    <p className="text-xs text-gray-400 mt-1">
+                      {step.description}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -519,8 +610,10 @@ export default function AddProductPage() {
           <div className="space-y-6">
             {currentStep === 1 && (
               <div className="space-y-8">
-                <h2 className="text-xl font-semibold text-gray-900">Product Information</h2>
-                
+                <h2 className="text-xl font-semibold text-gray-900">
+                  Product Information
+                </h2>
+
                 {/* Basic Product Info */}
                 <div className="space-y-6">
                   <div>
@@ -530,7 +623,9 @@ export default function AddProductPage() {
                     <input
                       type="text"
                       value={formData.name}
-                      onChange={(e) => handleInputChange("name", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange('name', e.target.value)
+                      }
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                       placeholder="Enter product name"
                     />
@@ -542,7 +637,9 @@ export default function AddProductPage() {
                     </label>
                     <textarea
                       value={formData.description}
-                      onChange={(e) => handleInputChange("description", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange('description', e.target.value)
+                      }
                       rows={4}
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                       placeholder="Enter product description"
@@ -556,7 +653,9 @@ export default function AddProductPage() {
                     <input
                       type="number"
                       value={formData.price}
-                      onChange={(e) => handleInputChange("price", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange('price', e.target.value)
+                      }
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                       placeholder="0.00"
                     />
@@ -564,36 +663,52 @@ export default function AddProductPage() {
 
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <p className="text-sm text-gray-600 mb-2">Price Details</p>
-                    <p className="text-sm text-gray-500">Includes 18% VAT, plus shipping costs</p>
+                    <p className="text-sm text-gray-500">
+                      Includes 18% VAT, plus shipping costs
+                    </p>
                   </div>
 
                   <div className="bg-blue-50 p-4 rounded-lg">
-                    <p className="text-sm text-blue-600 font-medium">Shipping</p>
-                    <p className="text-sm text-blue-500">Shipping in 2-3 business days</p>
+                    <p className="text-sm text-blue-600 font-medium">
+                      Shipping
+                    </p>
+                    <p className="text-sm text-blue-500">
+                      Shipping in 2-3 business days
+                    </p>
                   </div>
                 </div>
 
                 {/* Dynamic Fields Sections */}
                 <div className="space-y-8">
-                  {renderCategorySection("product-details", "Product Details")}
-                  {renderCategorySection("dimensions", "Dimensions")}
-                  {renderCategorySection("technical-information", "Technical Information")}
-                  {renderCategorySection("other-information", "Other Information")}
+                  {renderCategorySection('product-details', 'Product Details')}
+                  {renderCategorySection('dimensions', 'Dimensions')}
+                  {renderCategorySection(
+                    'technical-information',
+                    'Technical Information'
+                  )}
+                  {renderCategorySection(
+                    'other-information',
+                    'Other Information'
+                  )}
                 </div>
               </div>
             )}
 
             {currentStep === 2 && (
               <div className="space-y-6">
-                <h2 className="text-xl font-semibold text-gray-900">Category Selection</h2>
-                
+                <h2 className="text-xl font-semibold text-gray-900">
+                  Category Selection
+                </h2>
+
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Select Category
                   </label>
                   <select
                     value={formData.category}
-                    onChange={(e) => handleInputChange("category", e.target.value)}
+                    onChange={(e) =>
+                      handleInputChange('category', e.target.value)
+                    }
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                   >
                     <option value="">Select a category</option>
@@ -612,7 +727,9 @@ export default function AddProductPage() {
                     </label>
                     <select
                       value={formData.subcategory}
-                      onChange={(e) => handleInputChange("subcategory", e.target.value)}
+                      onChange={(e) =>
+                        handleInputChange('subcategory', e.target.value)
+                      }
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
                     >
                       <option value="">Select a subcategory</option>
@@ -629,23 +746,37 @@ export default function AddProductPage() {
 
             {currentStep === 3 && (
               <div className="space-y-6">
-                <h2 className="text-xl font-semibold text-gray-900">Product Images</h2>
-                
+                <h2 className="text-xl font-semibold text-gray-900">
+                  Product Images
+                </h2>
+
                 <div className="space-y-4">
                   {/* Upload Area */}
-                  <div 
+                  <div
                     className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-teal-400 transition-colors"
                     onDragOver={handleDragOver}
                     onDrop={handleDrop}
                   >
                     <div className="space-y-4">
                       <div className="text-gray-500">
-                        <svg className="mx-auto h-12 w-12" stroke="currentColor" fill="none" viewBox="0 0 48 48">
-                          <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                        <svg
+                          className="mx-auto h-12 w-12"
+                          stroke="currentColor"
+                          fill="none"
+                          viewBox="0 0 48 48"
+                        >
+                          <path
+                            d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </svg>
                       </div>
                       <div>
-                        <p className="text-lg font-medium text-gray-900">Upload Product Images</p>
+                        <p className="text-lg font-medium text-gray-900">
+                          Upload Product Images
+                        </p>
                         <p className="text-sm text-gray-500 mt-1">
                           Drag and drop images here, or click to select files
                         </p>
@@ -662,7 +793,10 @@ export default function AddProductPage() {
                           onChange={handleImageUpload}
                           className="hidden"
                         />
-                        <label htmlFor="image-upload" className="cursor-pointer">
+                        <label
+                          htmlFor="image-upload"
+                          className="cursor-pointer"
+                        >
                           <div className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all bg-teal-600 text-white shadow-xs hover:bg-teal-700 h-10 px-6">
                             Choose Images
                           </div>
@@ -674,7 +808,9 @@ export default function AddProductPage() {
                   {/* Uploaded Images */}
                   {productImages.length > 0 && (
                     <div>
-                      <h3 className="text-lg font-medium text-gray-900 mb-4">Uploaded Images ({productImages.length})</h3>
+                      <h3 className="text-lg font-medium text-gray-900 mb-4">
+                        Uploaded Images ({productImages.length})
+                      </h3>
                       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                         {productImages.map((image) => (
                           <div key={image.id} className="relative group">
@@ -712,28 +848,41 @@ export default function AddProductPage() {
                         <Check className="w-8 h-8 text-green-600" />
                       </div>
                     </div>
-                    
-                    <h2 className="text-2xl font-semibold text-gray-900">Your Product is Created!</h2>
+
+                    <h2 className="text-2xl font-semibold text-gray-900">
+                      Your Product is Created!
+                    </h2>
                     <p className="text-gray-600 max-w-md mx-auto">
-                      Congratulations! Your product &quot;{formData.name}&quot; has been successfully created and added to your store.
+                      Congratulations! Your product &quot;{formData.name}&quot;
+                      has been successfully created and added to your store.
                     </p>
-                    
+
                     <div className="bg-gray-50 p-4 rounded-lg max-w-md mx-auto">
                       <p className="text-sm text-gray-600">Product Details:</p>
-                      <p className="text-sm font-medium text-gray-900 mt-1">{formData.name}</p>
+                      <p className="text-sm font-medium text-gray-900 mt-1">
+                        {formData.name}
+                      </p>
                       <p className="text-sm text-gray-600">€{formData.price}</p>
                       {formData.category && (
                         <p className="text-sm text-gray-600">
-                          {selectedCategory ? getCategoryName(selectedCategory.nameKey) : ''}
-                          {formData.subcategory && (() => {
-                            const sub = subcategories.find(s => s.id === formData.subcategory)
-                            return sub ? ` > ${getCategoryName(sub.nameKey)}` : ''
-                          })()}
+                          {selectedCategory
+                            ? getCategoryName(selectedCategory.nameKey)
+                            : ''}
+                          {formData.subcategory &&
+                            (() => {
+                              const sub = subcategories.find(
+                                (s) => s.id === formData.subcategory
+                              );
+                              return sub
+                                ? ` > ${getCategoryName(sub.nameKey)}`
+                                : '';
+                            })()}
                         </p>
                       )}
                       {productImages.length > 0 && (
                         <p className="text-sm text-gray-600 mt-2">
-                          {productImages.length} image{productImages.length !== 1 ? 's' : ''} uploaded
+                          {productImages.length} image
+                          {productImages.length !== 1 ? 's' : ''} uploaded
                         </p>
                       )}
                     </div>
@@ -745,15 +894,18 @@ export default function AddProductPage() {
                         <X className="w-8 h-8 text-red-600" />
                       </div>
                     </div>
-                    
-                    <h2 className="text-2xl font-semibold text-gray-900">Error Creating Product</h2>
+
+                    <h2 className="text-2xl font-semibold text-gray-900">
+                      Error Creating Product
+                    </h2>
                     <p className="text-red-600 max-w-md mx-auto">
                       {submitError}
                     </p>
-                    
+
                     <div className="bg-red-50 p-4 rounded-lg max-w-md mx-auto">
                       <p className="text-sm text-red-600">
-                        Please check your product information and try again. If the problem persists, contact support.
+                        Please check your product information and try again. If
+                        the problem persists, contact support.
                       </p>
                     </div>
                   </>
@@ -764,28 +916,41 @@ export default function AddProductPage() {
                         <Check className="w-8 h-8 text-gray-600" />
                       </div>
                     </div>
-                    
-                    <h2 className="text-2xl font-semibold text-gray-900">Ready to Create Product</h2>
+
+                    <h2 className="text-2xl font-semibold text-gray-900">
+                      Ready to Create Product
+                    </h2>
                     <p className="text-gray-600 max-w-md mx-auto">
-                      Review your product details below and click &quot;Create Product&quot; to add it to your store.
+                      Review your product details below and click &quot;Create
+                      Product&quot; to add it to your store.
                     </p>
-                    
+
                     <div className="bg-gray-50 p-4 rounded-lg max-w-md mx-auto">
                       <p className="text-sm text-gray-600">Product Details:</p>
-                      <p className="text-sm font-medium text-gray-900 mt-1">{formData.name}</p>
+                      <p className="text-sm font-medium text-gray-900 mt-1">
+                        {formData.name}
+                      </p>
                       <p className="text-sm text-gray-600">€{formData.price}</p>
                       {formData.category && (
                         <p className="text-sm text-gray-600">
-                          {selectedCategory ? getCategoryName(selectedCategory.nameKey) : ''}
-                          {formData.subcategory && (() => {
-                            const sub = subcategories.find(s => s.id === formData.subcategory)
-                            return sub ? ` > ${getCategoryName(sub.nameKey)}` : ''
-                          })()}
+                          {selectedCategory
+                            ? getCategoryName(selectedCategory.nameKey)
+                            : ''}
+                          {formData.subcategory &&
+                            (() => {
+                              const sub = subcategories.find(
+                                (s) => s.id === formData.subcategory
+                              );
+                              return sub
+                                ? ` > ${getCategoryName(sub.nameKey)}`
+                                : '';
+                            })()}
                         </p>
                       )}
                       {productImages.length > 0 && (
                         <p className="text-sm text-gray-600 mt-2">
-                          {productImages.length} image{productImages.length !== 1 ? 's' : ''} uploaded
+                          {productImages.length} image
+                          {productImages.length !== 1 ? 's' : ''} uploaded
                         </p>
                       )}
                     </div>
@@ -811,7 +976,7 @@ export default function AddProductPage() {
               submitSuccess ? (
                 <Button
                   variant="primary"
-                  onClick={() => window.location.href = '/'}
+                  onClick={() => (window.location.href = '/')}
                   className="flex items-center gap-2"
                 >
                   Back to Dashboard
@@ -821,10 +986,10 @@ export default function AddProductPage() {
                 <Button
                   variant="primary"
                   onClick={handleSubmit}
-                  disabled={isSubmitting}
+                  disabled={createProductMutation.isPending}
                   className="flex items-center gap-2"
                 >
-                  {isSubmitting ? (
+                  {createProductMutation.isPending ? (
                     <>
                       <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
                       Creating...
@@ -856,5 +1021,5 @@ export default function AddProductPage() {
         </div>
       </div>
     </div>
-  )
-} 
+  );
+}

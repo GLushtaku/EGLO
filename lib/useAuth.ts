@@ -33,8 +33,15 @@ export function useAuth() {
       return;
     }
 
+    // Debug: Log token structure
+    if (process.env.NODE_ENV === 'development') {
+      console.log('🔍 [useAuth] Token from localStorage:', token);
+      console.log('🔍 [useAuth] User:', token.user);
+      console.log('🔍 [useAuth] Roles:', token.user?.roles);
+    }
+
     setAuth({
-      ...token,
+      user: token.user,
       isAuthenticated: true,
       isLoading: false,
       error: null,

@@ -2,10 +2,11 @@
 
 import Link from 'next/link';
 import { useState, useRef, useEffect, useMemo } from 'react';
-import { Lightbulb, Fan, Zap, Home, ChevronRight, X } from 'lucide-react';
+import { Lightbulb, Fan, Zap, Home, ChevronRight, X, Plus } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 import { useCategories, Category as ApiCategory } from '@/hooks/useCategories';
+import { useAuth } from '@/lib/useAuth';
 
 interface NavigationProps {
   isMobileMenuOpen: boolean;
@@ -60,10 +61,6 @@ const transformCategories = (
 ): TransformedCategory[] => {
   if (!apiCategories || apiCategories.length === 0) return [];
 
-  // Create a map of all categories by id
-  const categoryMap = new Map<string, ApiCategory>();
-  apiCategories.forEach((cat) => categoryMap.set(cat.id, cat));
-
   // Find root categories (no parentId)
   const rootCategories = apiCategories.filter((cat) => !cat.parentId);
 
@@ -110,9 +107,23 @@ export function Navigation({
   const tCategories = useTranslations('categories');
   const params = useParams();
   const locale = params.locale as string;
+  const { user, isAuthenticated } = useAuth();
 
   // Fetch categories from API
   const { categories: apiCategories, loading, error } = useCategories();
+
+  // Check if user is admin
+  const isAdmin = useMemo(
+    () =>
+      isAuthenticated &&
+      user?.roles?.some(
+        (role) =>
+          typeof role === 'string' &&
+          (role.toLowerCase() === 'admin' ||
+            role.toLowerCase() === 'administrator')
+      ),
+    [isAuthenticated, user]
+  );
 
   // Transform API categories to nested structure
   const categoriesData = useMemo(() => {
@@ -172,33 +183,44 @@ export function Navigation({
 
   // Helper to get display name - try translation first, fallback to API name
   const getCategoryName = (category: TransformedCategory): string => {
+    // First, try to get the name from API
+    const apiCat = apiCategories?.find((c) => c.id === category.id);
+    if (apiCat?.name) {
+      return apiCat.name;
+    }
+
+    // Fallback to translation if API name not available
     try {
       const translationKey = category.nameKey.replace('categories.', '');
       const translated = tCategories(translationKey);
-      // If translation returns the key itself, use the API name
-      if (translated === translationKey) {
-        const apiCat = apiCategories?.find((c) => c.id === category.id);
-        return apiCat?.name || category.id;
+      // If translation returns the key itself or contains "categories.", use the ID
+      if (translated === translationKey || translated.includes('categories.')) {
+        return category.id;
       }
       return translated;
     } catch {
-      const apiCat = apiCategories?.find((c) => c.id === category.id);
-      return apiCat?.name || category.id;
+      return category.id;
     }
   };
 
   const getSubcategoryName = (subcategory: TransformedSubcategory): string => {
+    // First, try to get the name from API
+    const apiCat = apiCategories?.find((c) => c.id === subcategory.id);
+    if (apiCat?.name) {
+      return apiCat.name;
+    }
+
+    // Fallback to translation if API name not available
     try {
       const translationKey = subcategory.nameKey.replace('categories.', '');
       const translated = tCategories(translationKey);
-      if (translated === translationKey) {
-        const apiCat = apiCategories?.find((c) => c.id === subcategory.id);
-        return apiCat?.name || subcategory.id;
+      // If translation returns the key itself or contains "categories.", use the ID
+      if (translated === translationKey || translated.includes('categories.')) {
+        return subcategory.id;
       }
       return translated;
     } catch {
-      const apiCat = apiCategories?.find((c) => c.id === subcategory.id);
-      return apiCat?.name || subcategory.id;
+      return subcategory.id;
     }
   };
 
@@ -320,6 +342,17 @@ export function Navigation({
             <Lightbulb className="w-4 h-4" />
             {t('inspiration')}
           </Link>
+
+          {/* Add Product Link - Only for Admin */}
+          {isAdmin && (
+            <Link
+              href={`/${locale}/add-product`}
+              className="flex items-center gap-2 text-gray-700 hover:text-teal-600 transition-colors font-medium"
+            >
+              <Plus className="w-4 h-4" />
+              {t('addProduct')}
+            </Link>
+          )}
         </div>
 
         {/* Mobile Navigation */}
@@ -491,6 +524,20 @@ export function Navigation({
                       <span className="font-medium">{t('inspiration')}</span>
                     </Link>
                   </div>
+
+                  {/* Mobile Add Product Link - Only for Admin */}
+                  {isAdmin && (
+                    <div className="border-b border-gray-100">
+                      <Link
+                        href={`/${locale}/add-product`}
+                        className="flex items-center gap-3 p-4 text-left hover:bg-gray-50 transition-colors"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <Plus className="w-5 h-5" />
+                        <span className="font-medium">{t('addProduct')}</span>
+                      </Link>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

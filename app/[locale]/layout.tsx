@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   icons: {
     icon: '/assets/images/icon.png?v=1',
     shortcut: '/assets/images/icon.png?v=1',
-    apple: '/assets/images/icon.png?v=1'
-  }
+    apple: '/assets/images/icon.png?v=1',
+  },
 };
 
 export const viewport = {
   width: 'device-width',
-  initialScale: 1
+  initialScale: 1,
 };
 
 export function generateStaticParams() {
@@ -30,18 +30,24 @@ export function generateStaticParams() {
 
 export default async function Layout({
   children,
-  params
+  params,
 }: {
   children: ReactNode;
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
 
+  // Validate locale before trying to load messages
+  if (!locales.includes(locale as Locale)) {
+    notFound();
+  }
+
   // Pull messages for the current locale (important for SSG)
   let messages;
   try {
     messages = await getLocaleMessages(locale as Locale);
-  } catch {
+  } catch (error) {
+    console.error(`Failed to load messages for locale ${locale}:`, error);
     notFound();
   }
 
