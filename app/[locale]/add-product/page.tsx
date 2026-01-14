@@ -342,17 +342,62 @@ export default function AddProductPage() {
       otherInfoJson: JSON.stringify(otherInfo),
     };
 
+    console.log('📤 [handleSubmit] Submitting product data:', submissionData);
+
     try {
       const result = await createProductMutation.mutateAsync(submissionData);
 
-      if (result.success) {
-        setSubmitSuccess(true);
-      } else {
-        setSubmitError(
-          result.message || 'Failed to create product. Please try again.'
-        );
+      console.log('✅ [handleSubmit] API Response received:', result);
+      console.log('✅ [handleSubmit] Response type:', typeof result);
+      console.log(
+        '✅ [handleSubmit] Response keys:',
+        Object.keys(result || {})
+      );
+      console.log('✅ [handleSubmit] result.success:', result?.success);
+      console.log('✅ [handleSubmit] result.message:', result?.message);
+
+      // Handle different response formats
+      // API might return success: true or just the data object
+      if (result) {
+        // Check if result has success property
+        if ('success' in result) {
+          if (result.success === true) {
+            console.log('✅ [handleSubmit] Product created successfully!');
+            setSubmitSuccess(true);
+            setSubmitError(null);
+            return;
+          } else {
+            console.log('❌ [handleSubmit] API returned success: false');
+            setSubmitError(
+              result.message || 'Failed to create product. Please try again.'
+            );
+            return;
+          }
+        }
+
+        // If no success property, check if we got data back (assume success)
+        if ('data' in result || 'id' in result || 'name' in result) {
+          console.log(
+            '✅ [handleSubmit] Product created (no success field, but has data)!'
+          );
+          setSubmitSuccess(true);
+          setSubmitError(null);
+          return;
+        }
       }
+
+      // If we get here, something unexpected happened
+      console.log('⚠️ [handleSubmit] Unexpected response format:', result);
+      setSubmitError('Unexpected response from server. Please try again.');
     } catch (error) {
+      console.error('❌ [handleSubmit] Error caught:', error);
+      console.error('❌ [handleSubmit] Error type:', typeof error);
+      console.error('❌ [handleSubmit] Error details:', {
+        message: error instanceof Error ? error.message : 'Unknown error',
+        name: error instanceof Error ? error.name : 'Unknown',
+        stack: error instanceof Error ? error.stack : undefined,
+      });
+
       setSubmitError(
         error instanceof Error
           ? error.message
