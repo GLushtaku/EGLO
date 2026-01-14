@@ -1,0 +1,1702 @@
+{
+  "products": [
+    {
+      "id": "mogano-3-ceiling",
+      "slug": "mogano-3-ceiling",
+      "name": "MOGANO 3 ceiling light",
+      "price": "€299.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "images": [
+        "/assets/images/MOGANO-3-ceiling-light.jpg",
+        "/assets/images/MOGANO-3-ceiling-light-2.jpg",
+        "/assets/images/MOGANO-3-ceiling-light-3.jpg",
+        "/assets/images/MOGANO-3-ceiling-light-view.jpg"
+      ],
+      "product_details": {
+        "Material number": "901747",
+        "Enclosure Material": "steel",
+        "Enclosure Colour": "sandy",
+        "Protection Degree": "-",
+        "Illuminant 1": "Exclusive",
+        "Lamp socket 1": "E27"
+      },
+      "dimensions": {
+        "Article Height": "180 / 7.09 mm/in",
+        "Article Diameter": "430 / 16.93 mm/in",
+        "Net Weight": "2.24 kg"
+      },
+      "technical_information": {
+        "Protection Class": "2",
+        "Mains Voltage": "220-240V,50/60Hz",
+        "Operation Voltage": "220-240V,50/60Hz",
+        "Switch Type": "without switch",
+        "Battery": "No"
+      },
+      "other_information": {
+        "Illuminant type 1": "AGL",
+        "EAN/UPC": "9008606328741"
+      },
+      "description": "Elegant ceiling light with premium steel construction and sandy finish. Features exclusive illuminant with E27 socket for optimal lighting performance."
+    },
+    {
+      "id": "huesa-table-lamp",
+      "slug": "huesa-table-lamp",
+      "name": "HUESA Table lamp",
+      "price": "€34.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "images": [
+        "/assets/images/huesa-table-lamp.jpg",
+        "/assets/images/huesa-table-lamp-2.jpg",
+        "/assets/images/huesa-table-lamp-view.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "240",
+        "Full Kelvin": "2200 / 3000 / 4000",
+        "Item number": "75795",
+        "Material": "plastic",
+        "Color": "white",
+        "Security level": "IP44",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Functions": "Dimmable, USB connection, Splash-proof (IP44)",
+        "Warranty": "2 years"
+      },
+      "dimensions": {
+        "Height (in mm/in)": "290 / 11.42",
+        "Diameter (in mm/in)": "130 / 5.12",
+        "Base diameter (in mm/in)": "95 / 3.74",
+        "Weight": "0.68"
+      },
+      "technical_information": {
+        "Battery quantity": "1",
+        "Security class": "3",
+        "Working voltage": "-",
+        "Type of circuit breaker": "winter with touch",
+        "Battery": "yes",
+        "Battery type": "ZZAKKAR_300"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9002759757953"
+      },
+      "description": "Modern table lamp with LED technology, USB connection, and splash-proof design. Features dimmable functionality and battery operation for versatile outdoor use."
+    },
+    {
+      "id": "e27-bulb",
+      "slug": "e27-bulb",
+      "name": "E27 bulb",
+      "price": "€8.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "images": [
+        "/assets/images/E27-bulb.jpg",
+        "/assets/images/E27-bulb-2.jpg",
+        "/assets/images/E27-bulb-3.jpg",
+        "/assets/images/E27-bulb-4.jpg",
+        "/assets/images/E27-bulb-view.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "470",
+        "Watt 1": "2.2",
+        "Item number": "110241",
+        "Technology": "LED - HV",
+        "Color warmth": "3000K warm white",
+        "Nominal brightness": "470",
+        "Shape of the bulb": "Other",
+        "Parts in one package": "1",
+        "Opening type 1": "E27",
+        "Energy saving class": "or"
+      },
+      "light_information": {
+        "Length (in mm/in)": "105 / 4.13",
+        "Brightness levels (90°/120°/full)": "470",
+        "Diameter (in mm/in)": "60 / 2.36",
+        "Nominal lifespan": "0"
+      },
+      "switching_information": {
+        "Changing cycles": "0"
+      },
+      "technical_information": {
+        "Nominal lamp power (in W)": "2",
+        "Rated lamp power (accuracy 0.1W)": "2",
+        "Equivalent to incandescent lamp (W)": "0",
+        "Lamp power factor": "0",
+        "Lifespan assessment": "0",
+        "Ambient temperature": "-",
+        "kW/1000h": "0"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606254002"
+      },
+      "description": "High-quality E27 LED bulb with 470 lumen output and warm white color temperature. Energy efficient with 2.2W power consumption."
+    },
+    {
+      "id": "saliteras-c-ceiling",
+      "slug": "saliteras-c-ceiling",
+      "name": "SALITERAS-C ceiling light",
+      "price": "€99.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "smart-lighting",
+      "images": [
+        "/assets/images/saliteras.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "2 600",
+        "Full Kelvin": "2700-6500",
+        "Item number": "32164",
+        "Material": "steel",
+        "Color": "white",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Functions": "dimmer, Control via app, Color changing, Smart Home, Remote control",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "1 160 / 0.046.3",
+        "Width (in mm/in)": "160 / 6.3",
+        "Height (in mm/in)": "50 / 1.97",
+        "Weight": "1.56"
+      },
+      "technical_information": {
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "without switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9002759321642"
+      },
+      "description": "Smart ceiling light with steel body, plastic contour, dimmer, app control, color changing, remote control, and 5-year warranty."
+    },
+    {
+      "id": "fueva-5-surface-mounted",
+      "slug": "fueva-5-surface-mounted",
+      "name": "FUEVA 5 light surface mounted",
+      "price": "€41.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-lamps",
+      "images": [
+        "/assets/images/Fueva.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "2 400",
+        "Full Kelvin": "3000",
+        "Item number": "901012",
+        "Material": "steel",
+        "Color": "white",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "F",
+        "Functions": "Integrated motion detector",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Height (in mm/in)": "28 / 1.1",
+        "Diameter (in mm/in)": "285 / 11.22",
+        "Weight": "0.66"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "Sensor",
+        "Battery": "not",
+        "Sensor angle": "160",
+        "Distance (in meters)": "2"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606299515"
+      },
+      "description": "LED surface mounted light with steel body, plastic contour, integrated motion detector, energy class F, and 5-year warranty."
+    },
+    {
+      "id": "cob-stripe-light-strip",
+      "slug": "cob-stripe-light-strip",
+      "name": "COB STRIPE light strip",
+      "price": "€11.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-strips",
+      "images": [
+        "/assets/images/cobStripe.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "5 600",
+        "Full Kelvin": "3000",
+        "Item number": "900576",
+        "Material": "plastic",
+        "Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "G",
+        "Warranty": "5 years"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "8 000 / 0.310",
+        "Weight": "0.33"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "Driver exchangeable by customers, LED cannot be exchanged",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Working voltage": "-",
+        "Type of circuit breaker": "without switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606244775"
+      },
+      "description": "LED strip with 5600 lumen, 3000K, plastic body, energy class G, and 5-year warranty."
+    },
+    {
+      "id": "competa-2-wall-ceiling",
+      "slug": "competa-2-wall-ceiling",
+      "name": "COMPETA 2 wall/ceiling light",
+      "price": "€45.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-panel",
+      "images": [
+        "/assets/images/competa2.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "2 400",
+        "Full Kelvin": "3000",
+        "Item number": "99405",
+        "Material": "steel",
+        "Color": "white",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white, black, clean",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "F",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "340 / 13.39",
+        "Width (in mm/in)": "340 / 13.39",
+        "Height (in mm/in)": "75 / 2.95",
+        "Weight": "0.98"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "1",
+        "Color warmth": "3000K warm white",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "without switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9002759994051"
+      },
+      "description": "Wall/ceiling LED panel with 2400 lumen, 3000K, steel body, plastic contour, energy class F, and 5-year warranty."
+    }, 
+    {
+      "id": "boyal-floor-lamp",
+      "slug": "boyal-floor-lamp",
+      "name": "BOYAL floor lamp",
+      "price": "€245.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "floor-led-lights",
+      "images": [
+        "/assets/images/BOYAL.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "huerta-e-ceiling-light",
+      "slug": "huerta-e-ceiling-light",
+      "name": "HUERTA-E ceiling light",
+      "price": "€55.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "ceiling-led-lights",
+      "images": [
+        "/assets/images/HUERTA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "riodeva-c-pendant-lights",
+      "slug": "riodeva-c-pendant-lights",
+      "name": "RIODEVA-C Pendant lights",
+      "price": "€55.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-pendant-lights",
+      "images": [
+        "/assets/images/RIODEVA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "cascia-wall-light",
+      "slug": "cascia-wall-light",
+      "name": "CASCIA wall light",
+      "price": "€7.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-wall-lights",
+      "images": [
+        "/assets/images/CASCIA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "almudaina-table-lamp",
+      "slug": "almudaina-table-lamp",
+      "name": "ALMUDAINA Table lamp",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "led-table-lights",
+      "images": [
+        "/assets/images/AMUDAINA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "scigliati-floor-lamp",
+      "slug": "scigliati-floor-lamp",
+      "name": "SCIGLIATI Floor lamp",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "floor-lamps",
+      "images": [
+        "/assets/images/SCIGLIATI.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "cabezas-e-wall-ceiling-light",
+      "slug": "cabezas-e-wall-ceiling-light",
+      "name": "CABEZAS-E wall/ceiling light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "ceiling-lights",
+      "images": [
+        "/assets/images/CABEZAS.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "dracera-pendant-lights",
+      "slug": "dracera-pendant-lights",
+      "name": "DRACERA Pendant lights",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "pendant-lights",
+      "images": [
+        "/assets/images/DRACERA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "erseka-chandelier",
+      "slug": "erseka-chandelier",
+      "name": "ERSEKA Chandelier",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "chandeliers",
+      "images": [
+        "/assets/images/ERSEKA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "pogliola-wall-light",
+      "slug": "pogliola-wall-light",
+      "name": "POGLIOLA wall light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "wall-lights",
+      "images": [
+        "/assets/images/POGLIOLA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "huesa-table-lamp",
+      "slug": "huesa-table-lamp",
+      "name": "HUESA Table lamp",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "table-lamps",
+      "images": [
+        "/assets/images/HUESA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "reciso-e-spot",
+      "slug": "reciso-e-spot",
+      "name": "RECISO-E spot",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "track-spotlights",
+      "images": [
+        "/assets/images/RECISO.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "reciso-e-spot",
+      "slug": "reciso-e-spot",
+      "name": "RECISO-E spot",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "recessed-surface",
+      "images": [
+        "/assets/images/REC.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "extend-undercab-light",
+      "slug": "extend-undercab-light",
+      "name": "EXTEND undercab light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "interior-lights",
+      "subcategory": "under-cabinet",
+      "images": [
+        "/assets/images/EXTEND.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "huesa-table-lamp",
+      "slug": "huesa-table-lamp",
+      "name": "HUESA Table lamp",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "outdoor-led-lights",
+      "images": [
+        "/assets/images/HUESA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "solar-light",
+      "slug": "solar-light",
+      "name": "Solar light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "solar-lights",
+      "images": [
+        "/assets/images/solarLight.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "barcarola-e-wall-light",
+      "slug": "barcarola-e-wall-light",
+      "name": "BARCAROLA-E wall light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "outdoor-wall-lights",
+      "images": [
+        "/assets/images/BARCAROLA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "pilone-wall-ceiling-light",
+      "slug": "pilone-wall-ceiling-light",
+      "name": "PILONE wall/ceiling light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "exterior-ceiling-lights",
+      "images": [
+        "/assets/images/PILONE.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "filetti-flood-light",
+      "slug": "filetti-flood-light",
+      "name": "FILETTI flood light",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "outdoor-spotlights",
+      "images": [
+        "/assets/images/FILETTI.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "roffia-floor-lamp",
+      "slug": "roffia-floor-lamp",
+      "name": "ROFFIA Floor lamp",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "outdoor-lights",
+      "subcategory": "earth-luminaires",
+      "images": [
+        "/assets/images/ROFFIA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },  
+    {
+      "id": "marine-ceiling-light-with-fan",
+      "slug": "marine-ceiling-light-with-fan",
+      "name": "MARINELLA ceiling light with fan",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "ceiling-fans",
+      "subcategory": "ceiling-fans-with-light",
+      "images": [
+        "/assets/images/MARINELLA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "portsea-ceiling-fan",
+      "slug": "portsea-ceiling-fan",
+      "name": "PORTSEA ceiling fan",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "ceiling-fans",
+      "subcategory": "ceiling-fans-without-light",
+      "images": [
+        "/assets/images/PORTSEA.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "e27-bulb",
+      "slug": "e27-bulb",
+      "name": "E27 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "e27",
+      "images": [
+        "/assets/images/E27.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "e14-bulb",
+      "slug": "e14-bulb",
+      "name": "E14 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "e14",
+      "images": [
+        "/assets/images/E14.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "g4-bulb",
+      "slug": "g4-bulb",
+      "name": "G4 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "g4",
+      "images": [
+        "/assets/images/G4.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "led-bulb-g9-3w-3000k-warm-light-dimmable-320lm",
+      "slug": "led-bulb-g9-3w-3000k-warm-light-dimmable-320lm",
+      "name": "LED Bulb G9 3W 3000K warm light dimmable 320lm",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "g9",
+      "images": [
+        "/assets/images/g9.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "gu5-3-bulb",
+      "slug": "gu5-3-bulb",
+      "name": "GU5.3 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "gu5-3",
+      "images": [
+        "/assets/images/GU5.3.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "gu10-bulb",
+      "slug": "gu10-bulb",
+      "name": "GU10 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "gu10",
+      "images": [
+        "/assets/images/GU10.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "r7s-bulb",
+      "slug": "r7s-bulb",
+      "name": "R7S light bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "r7s",
+      "images": [
+        "/assets/images/R7S.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    },
+    {
+      "id": "gx53-bulb",
+      "slug": "gx53-bulb",
+      "name": "GX53 bulb",
+      "price": "€66.00",
+      "priceDetails": "Includes 18% VAT, plus shipping costs",
+      "shippingInfo": "Shipping in 2-3 business days",
+      "category": "illuminants",
+      "subcategory": "gx53",
+      "images": [
+        "/assets/images/GX53.jpg"
+      ],
+      "product_details": {
+        "Full lumen": "3 400",
+        "Full Kelvin": "3000",
+        "Item number": "900892",
+        "Material": "steel, wood",
+        "Color": "black, rural brown",
+        "Glass/Contour Material": "plastic",
+        "Glass/Contour Color": "white",
+        "Security level": "IP20",
+        "Included light 1": "INCLUDING",
+        "Opening type 1": "LED",
+        "Energy saving class": "The",
+        "Warranty": "5 years",
+        "Instruction manual": "Download"
+      },
+      "dimensions": {
+        "Length (in mm/in)": "300 / 11.81",
+        "Height (in mm/in)": "1 500 / 0.0419.69",
+        "Base lenght (in mm/in)": "250 / 9.84",
+        "Base widht": "200 / 7.87",
+        "Weight": "5.42"
+      },
+      "technical_information": {
+        "Info changeability light source/driver": "LED + driver can be exchanged by a specialist",
+        "Security class": "2",
+        "Mains voltage": "-",
+        "Type of circuit breaker": "foot switch",
+        "Battery": "not"
+      },
+      "other_information": {
+        "Lighter type 1": "LED",
+        "EAN/UPC": "9008606274574"
+      }
+    }
+  ]
+}

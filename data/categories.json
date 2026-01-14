@@ -1,0 +1,327 @@
+{
+  "categories": [
+    {
+      "id": "interior-lights",
+      "nameKey": "categories.interiorLights.name",
+      "icon": "Lightbulb",
+      "descriptionKey": "categories.interiorLights.description",
+      "images": {
+        "image1": "/assets/images/interior-lights1.jpg",
+        "image2": "/assets/images/interior-lights2.jpg"
+      },
+      "subcategories": [
+        {
+          "id": "smart-lighting",
+          "nameKey": "categories.interiorLights.subcategories.smartLighting.name",
+          "descriptionKey": "categories.interiorLights.subcategories.smartLighting.description",
+          "images": {
+            "image1": "/assets/images/smart-lighting.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "led-lamps",
+          "nameKey": "categories.interiorLights.subcategories.ledLamps.name",
+          "descriptionKey": "categories.interiorLights.subcategories.ledLamps.description",
+          "images": {
+            "image1": "/assets/images/led-lamps.jpg"
+          },
+          "subcategories": [
+            {
+              "id": "led-strips",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledStrips.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledStrips.description",
+              "images": {
+                "image1": "/assets/images/led-strips.jpg"
+              },
+              "subcategories": []
+            },
+            {
+              "id": "led-panel",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledPanel.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledPanel.description",
+              "images": {
+                "image1": "/assets/images/ledPanel.jpg"
+              },
+              "subcategories": []
+            },  
+            {
+              "id": "floor-led-lights",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.floorLedLights.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.floorLedLights.description",
+              "images": {
+                "image1": "/assets/images/ledFloor.jpg"
+              },
+              "subcategories": []
+            },
+            {
+              "id": "ceiling-led-lights",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ceilingLedLights.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ceilingLedLights.description",
+              "images": {
+                "image1": "/assets/images/ceilingLight.jpg"
+              },
+              "subcategories": []
+            },
+            {
+              "id": "led-pendant-lights",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledPendantLights.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledPendantLights.description",
+              "images": {
+                "image1": "/assets/images/pendantLight.jpg"
+              },
+              "subcategories": []
+            },
+            {
+              "id": "led-wall-lights",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledWallLights.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledWallLights.description",
+              "images": {
+                "image1": "/assets/images/wallLight.jpg"
+              },
+              "subcategories": []
+            },
+            {
+              "id": "led-table-lights",
+              "nameKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledTableLights.name",
+              "descriptionKey": "categories.interiorLights.subcategories.ledLamps.subcategories.ledTableLights.description",
+              "images": {
+                "image1": "/assets/images/tableLamp.jpg"
+              },
+              "subcategories": []
+            }
+          ]
+        },
+        {
+          "id": "floor-lamps",
+          "nameKey": "categories.interiorLights.subcategories.floorLamps.name",
+          "descriptionKey": "categories.interiorLights.subcategories.floorLamps.description",
+          "images": {
+            "image1": "/assets/images/floorLamp.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "ceiling-lights",
+          "nameKey": "categories.interiorLights.subcategories.ceilingLights.name",
+          "descriptionKey": "categories.interiorLights.subcategories.ceilingLights.description",
+          "images": {
+            "image1": "/assets/images/ceilingLights.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "pendant-lights",
+          "nameKey": "categories.interiorLights.subcategories.pendantLights.name",
+          "descriptionKey": "categories.interiorLights.subcategories.pendantLights.description",
+          "images": {
+            "image1": "/assets/images/pendantLights.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "chandeliers",
+          "nameKey": "categories.interiorLights.subcategories.chandeliers.name",
+          "descriptionKey": "categories.interiorLights.subcategories.chandeliers.description",
+          "images": {
+            "image1": "/assets/images/chandelier.webp"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "wall-lights",
+          "nameKey": "categories.interiorLights.subcategories.wallLights.name",
+          "descriptionKey": "categories.interiorLights.subcategories.wallLights.description",
+          "images": {
+            "image1": "/assets/images/wallLamp.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "table-lamps",
+          "nameKey": "categories.interiorLights.subcategories.tableLamps.name",
+          "descriptionKey": "categories.interiorLights.subcategories.tableLamps.description",
+          "images": {
+            "image1": "/assets/images/tableLamps.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "track-spotlights",
+          "nameKey": "categories.interiorLights.subcategories.trackSpotlights.name",
+          "descriptionKey": "categories.interiorLights.subcategories.trackSpotlights.description",
+          "images": {
+            "image1": "/assets/images/tracks.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "recessed-surface",
+          "nameKey": "categories.interiorLights.subcategories.recessedSurface.name",
+          "descriptionKey": "categories.interiorLights.subcategories.recessedSurface.description",
+          "images": {
+            "image1": "/assets/images/recessed.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "under-cabinet",
+          "nameKey": "categories.interiorLights.subcategories.underCabinet.name",
+          "descriptionKey": "categories.interiorLights.subcategories.underCabinet.description",
+          "images": {
+            "image1": "/assets/images/cabinetLights.jpg"
+          },
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "outdoor-lights",
+      "nameKey": "categories.outdoorLights.name",
+      "icon": "Zap",
+      "descriptionKey": "categories.outdoorLights.description",
+      "images": {
+        "image1": "/assets/images/outdoor-lights1.png",
+        "image2": "/assets/images/outdoor-lights2.png"
+      },
+      "subcategories": [
+        {
+          "id": "outdoor-led-lights",
+          "nameKey": "categories.outdoorLights.subcategories.outdoorLedLights.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.outdoorLedLights.description",
+          "images": {
+            "image1": "/assets/images/outdoor-lights1.png"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "solar-lights",
+          "nameKey": "categories.outdoorLights.subcategories.solarLights.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.solarLights.description",
+          "images": {
+            "image1": "/assets/images/solar.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "outdoor-wall-lights",
+          "nameKey": "categories.outdoorLights.subcategories.outdoorWallLights.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.outdoorWallLights.description",
+          "images": {
+            "image1": "/assets/images/outdoor-wall-lights.png"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "exterior-ceiling-lights",
+          "nameKey": "categories.outdoorLights.subcategories.exteriorCeilingLights.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.exteriorCeilingLights.description",
+          "images": {
+            "image1": "/assets/images/Exterior.webp"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "outdoor-spotlights",
+          "nameKey": "categories.outdoorLights.subcategories.outdoorSpotlights.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.outdoorSpotlights.description",
+          "images": {
+            "image1": "/assets/images/spotlights.webp"
+          },
+          "subcategories": []
+        },  
+        {
+          "id": "earth-luminaires",
+          "nameKey": "categories.outdoorLights.subcategories.earthLuminaires.name",
+          "descriptionKey": "categories.outdoorLights.subcategories.earthLuminaires.description",
+          "images": {
+            "image1": "/assets/images/earth.jpg"
+          },
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "ceiling-fans",
+      "nameKey": "categories.ceilingFans.name",
+      "icon": "Fan",
+      "descriptionKey": "categories.ceilingFans.description",
+      "images": {
+        "image1": "/assets/images/ceilingFan.jpg",
+        "image2": "/assets/images/ceilingFan.jpg"
+      },
+      "subcategories": [
+        {
+          "id": "ceiling-fans-with-light",
+          "nameKey": "categories.ceilingFans.subcategories.ceilingFansWithLight.name",
+          "descriptionKey": "categories.ceilingFans.subcategories.ceilingFansWithLight.description",
+          "images": {
+            "image1": "/assets/images/ceilingFan.jpg"
+          },
+          "subcategories": []
+        },
+        {
+          "id": "ceiling-fans-without-light",
+          "nameKey": "categories.ceilingFans.subcategories.ceilingFansWithoutLight.name",
+          "descriptionKey": "categories.ceilingFans.subcategories.ceilingFansWithoutLight.description",
+          "images": {
+            "image1": "/assets/images/ceilingFan.jpg"
+          },
+          "subcategories": []
+        }
+      ]
+    },
+    {
+      "id": "illuminants",
+      "nameKey": "categories.illuminants.name",
+      "icon": "Zap",
+      "descriptionKey": "categories.illuminants.description",
+      "images": {
+        "image1": "/assets/images/bulbs1.jpg",
+        "image2": "/assets/images/bulbs2.jpg"
+      },
+      "subcategories": [
+        {
+          "id": "e27",
+          "nameKey": "categories.illuminants.subcategories.e27.name",
+          "subcategories": []
+        },
+        {
+          "id": "e14",
+          "nameKey": "categories.illuminants.subcategories.e14.name",
+          "subcategories": []
+        },
+        {
+          "id": "g4",
+          "nameKey": "categories.illuminants.subcategories.g4.name",
+          "subcategories": []
+        },
+        {
+          "id": "g9",
+          "nameKey": "categories.illuminants.subcategories.g9.name",
+          "subcategories": []
+        },
+        {
+          "id": "gu5-3",
+          "nameKey": "categories.illuminants.subcategories.gu53.name",
+          "subcategories": []
+        },
+        {
+          "id": "gu10",
+          "nameKey": "categories.illuminants.subcategories.gu10.name",
+          "subcategories": []
+        },
+        {
+          "id": "r7s",
+          "nameKey": "categories.illuminants.subcategories.r7s.name",
+          "subcategories": []
+        },
+        {
+          "id": "gx53",
+          "nameKey": "categories.illuminants.subcategories.gx53.name",
+          "subcategories": []
+        }
+      ]
+    }
+  ]
+} 

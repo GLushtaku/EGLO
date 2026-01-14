@@ -1,0 +1,1166 @@
+{
+  "about": {
+    "breadcrumb": {
+      "home": "Kryesore",
+      "about": "Rreth EGLO"
+    },
+    "hero": {
+      "title": "Rreth EGLO",
+      "brightMinds": "Mendjet e ndritshme kanë qenë gjithmonë të magjepsura nga subjekti i dritës.",
+      "description": "Megjithëse llamba e dritës i atribuohet Thomas Edison, shkencëtarët dhe shpikësit po hulumtonin përdorimin e dritës elektrike që në fillim të shekullit të 19-të. Patentet e para për llambat e dritës u dhanë në 1841, por Edison i bëri të mundur përdorimin praktik dhe prodhimin në masë në 1880.\n\nEGLO ka gjetur vendin e vet në historinë e ndriçimit, duke u rritur me sukses për më shumë se 50 vjet.",
+      "motto": "\"Dizajni bashkëkohor, i kombinuar me funksionalitet të lartë, në çmime të përballueshme.\"",
+      "mottoDescription": "Kjo ka qenë dhe vazhdon të jetë motoja jonë. Në hap me kohën, ne zhvillojmë dhe prodhojmë produkte të përshtatura për nevojat e klientëve tanë. Aktualisht po punojmë intensivisht për Smart Lighting, duke sjellë dritën dhe ndriçimin në një formë të rrjetëzuar dixhitalisht dhe të kontrollueshme lehtësisht.\n\nÇfarëdo që mbajë e ardhmja për sa i përket dritës, ne do të vazhdojmë të ofrojmë zgjidhje bashkëkohore të ndriçimit për të gjitha shtresat e jetës nga Tiroli Austriak në botë."
+    },
+    "landmark": {
+      "title": "Pikë Referimi",
+      "subtitle": "Momentet që tregojnë historinë tonë të ndritshme.",
+      "milestones": {
+        "1969": {
+          "title": "Kompania u Themelua",
+          "description": "EGLO është themeluar, duke hedhur themelet për dekada inovacioni dhe rritje në ndriçim. Vendosmëria, këmbëngulja dhe zhvillimi i vazhdueshëm kanë qenë gurët e themelit që nga fillimi. Themeluesi Ludwig Obwieser vendosi tonin për një histori suksesi që vazhdon deri sot."
+        },
+        "1976": {
+          "title": "Ndërtesa e Parë e Kompanisë në Austri",
+          "description": "Ndërtesa e parë e kompanisë EGLO përfundon në Pill, Austri, duke shënuar një hap të rëndësishëm në zgjerimin e kompanisë."
+        },
+        "1986": {
+          "title": "Globalizimi Fillon",
+          "description": "EGLO bën hapin e parë drejt ndërkombëtarizimit me themelimin e një kompanie shitjesh në Gjermani. Kjo shënon fillimin e udhëtimit të EGLO për t'u bërë një markë globale, tani e pranishme në më shumë se 70 vende."
+        },
+        "2016": {
+          "title": "Ndërtesa e Kompanisë në Gjermani",
+          "description": "Një ndërtesë e re kompanie moderne hapet në Arnsberg, Gjermani, duke reflektuar angazhimin e EGLO për inovacion dhe rritje në tregun evropian."
+        },
+        "1994": {
+          "title": "Fabrika e Parë në Hungari",
+          "description": "Fabrika e parë e EGLO ndërtohet në Pásztó, Hungari. Vendndodhja rritet vazhdimisht dhe tani përfshin një sallë prodhimi 4-katëshe me 14,000 m² dhe një magazinë plotësisht të automatizuar."
+        },
+        "1997": {
+          "title": "Rritje e Qëndrueshme",
+          "description": "EGLO investon në magazina qendrore për dorëzim të shpejtë. Në 1997, zona e ruajtjes tejkalon 10,000 m³ për herë të parë, një trend që vazhdon për 20 vitet e ardhshme, duke arritur 200,000 m³ deri në 2017."
+        },
+        "2001": {
+          "title": "Prodhimi në Kinë",
+          "description": "EGLO fillon prodhimin në Kinë. Zyra dhe ndërtesa e prodhimit mbulon një zonë që tejkalon 120,000 m², duke punësuar më shumë se 1,100 njerëz dhe duke mbështetur rritjen globale."
+        },
+        "2006": {
+          "title": "Teknologjia LED e Përqafuar",
+          "description": "EGLO lançon produktet e para LED, duke udhëhequr rrugën në ndriçim efikas energjetik. Sot, pothuajse e gjithë gama përbëhet nga llamba LED të qëndrueshme dhe kurse energjie."
+        },
+        "2016_smart": {
+          "title": "Zgjidhje Smart Lighting",
+          "description": "EGLO prezanton ndriçimin inteligjent, duke bërë shtëpitë më të ndritshme dhe më të lidhura. Kompania punon për zgjidhje për kontroll të lehtë dhe inteligjent të ndriçimit përmes pajisjeve inteligjente."
+        },
+        "2017": {
+          "title": "Prodhimi në Indi",
+          "description": "Një fabrikë e re në Indi fillon funksionimin, duke mbështetur zinxhirin global të furnizimit të EGLO dhe duke zgjeruar prezencën e prodhimit në Azi."
+        },
+        "2019": {
+          "title": "50-vjetori",
+          "description": "EGLO feston 50 vjet inovacioni në ndriçim, me më shumë se 70 kompani në mbarë botën dhe më shumë se 80,000 drita të prodhuara çdo ditë në fabrikat në Hungari, Kinë dhe Indi."
+        },
+        "2021": {
+          "title": "Qendër Inovative e Logjistikës në Magdeburg",
+          "description": "Një qendër e re logjistike hapet në Magdeburg, Gjermani, me hapësirë për afërsisht 76,000 paleta dhe më shumë se 150 punonjës, duke përmirësuar më tej shpërndarjen evropiane të EGLO."
+        },
+        "2023": {
+          "title": "Hapja e EGLO Lichtwelten",
+          "description": "Dyqani më i madh i ndriçimit në Evropë hapet, duke ofruar një përzgjedhje të gjerë artikujsh dhe përshtypje emocionuese vizuale dhe dëgjimore. Ndërtesa moderne 3-katëshe përmban 7,500 m² hapësirë ekspozimi dhe 4,600 m² hapësirë të jashtme."
+        }
+      }
+    },
+    "management": {
+      "title": "Menaxhimi i EGLO",
+      "subtitle": "Një anije nuk mund të mbahet në kurs pa një kapiten dhe një timon. Për ne, kjo përgjegjësi ndahet midis menaxhimit të grupit dhe menaxhimit të zgjeruar.",
+      "extendedManagement": "Menaxhimi i zgjeruar i grupit",
+      "cards": {
+        "worldwide": "EGLO në mbarë botën",
+        "principles": "Parimet tona",
+        "workingAtEglo": "Puna në EGLO"
+      },
+      "people": {
+        "management": {
+          "rene": {
+            "name": "René Tiefenbacher",
+            "role": "CEO i Grupit EGLO"
+          },
+          "axel": {
+            "name": "Axel Böchzelt",
+            "role": "GM i Shitjeve"
+          },
+          "martin": {
+            "name": "Martin Doppelbauer",
+            "role": "GM i Financave & IT\nDepartamenti Ligjor & Digitalizimi"
+          }
+        },
+        "extended": {
+          "christianGspan": {
+            "name": "Christian Gspan",
+            "role": "Blerje, Logjistika e Transportit, QS"
+          },
+          "manuelReinalter": {
+            "name": "Manuel Reinalter",
+            "role": "Shitje në BE, E-commerce, Komunikime Korporative"
+          },
+          "tanjaLiscic": {
+            "name": "Tanja Liscic",
+            "role": "Komunikime, POS, PM"
+          },
+          "christianHuber": {
+            "name": "Christian Huber",
+            "role": "Prodhimi Ndërkombëtar, Zhvillimi Teknik"
+          },
+          "christianWeger": {
+            "name": "Christian Weger",
+            "role": "Financa Bartenbach, LUXIT"
+          }
+        }
+      }
+    }
+  },
+  "worldwide": {
+    "breadcrumb": {
+      "home": "Kryesore",
+      "worldwide": "Në mbarë botën"
+    },
+    "title": "EGLO në mbarë botën",
+    "subtitle": "Nëse doni të pushtoni botën, duhet të jeni kudo.",
+    "description": "Fabrikat tona në Hungari, Kinë dhe Indi prodhojnë produkte për të kënaqur klientët tanë. Për ta bërë këtë të mundur, ne kërkojmë në mbarë botën për ide të reja. Këto transformohen në produkte të disponueshme në mbarë botën. Kompanitë tona të shitjes në rreth 50 vende në mbarë botën janë çelësi për këtë.",
+    "labels": {
+      "country": "Vendi",
+      "company": "Kompania",
+      "address": "Adresa",
+      "phone": "Telefoni",
+      "fax": "Faksi",
+      "email": "Email"
+    },
+    "countries": {
+      "HEADQUARTERS AUSTRIA": "SELIA QENDRORE AUSTRI",
+      "AUSTRALIA": "AUSTRALI",
+      "BELGIUM": "BELGJIKË",
+      "BOSNIA AND HERZEGOVINA": "BOSNJA DHE HERCEGOVINA",
+      "BULGARIA": "BULLGARI",
+      "CANADA": "KANADA",
+      "CHILE": "KILI",
+      "CHINA": "KINË",
+      "COLOMBIA": "KOLUMBI",
+      "COSTA RICA": "KOSTA RIKA",
+      "CROATIA": "KROACI",
+      "CZECH REPUBLIC": "REPUBLIKA ÇEKE",
+      "DENMARK": "DANIMARKË",
+      "ESTONIA": "ESTONI",
+      "FINLAND": "FINLANDË",
+      "FRANCE": "FRANCË",
+      "GERMANY": "GJERMANI",
+      "GREAT BRITAIN & IRELAND": "BRITANIA E MADHE DHE IRLANDA",
+      "GREECE": "GREQI",
+      "HUNGARY - PRODUCTION & LOGISTICS": "HUNGARI - PRODHIM DHE LOGJISTIKË",
+      "INDIA": "INDI",
+      "ITALY": "ITALI",
+      "KAZAKHSTAN": "KAZAKISTAN",
+      "KOSOVO": "KOSOVË",
+      "LATVIA": "LETONI",
+      "LITHUANIA": "LITUANI",
+      "MAGYARORSZÁG – ÉRTÉKESÍTÉS": "HUNGARI - SHITJE",
+      "MALAYSIA": "MALAJZI",
+      "MEXICO": "MEKSIKË",
+      "MIDDLE EAST": "LINDJA E MESME",
+      "MOROCCO - EGLO AFRICA": "MAROK - EGLO AFRIKË",
+      "THE NETHERLANDS": "HOLANDË",
+      "NORWAY": "NORVEGJI",
+      "PERU": "PERU",
+      "POLAND": "POLONI",
+      "PORTUGAL": "PORTUGALI",
+      "ROMANIA": "RUMANI",
+      "RUSSIA": "RUSI",
+      "SERBIA": "SERBI",
+      "SLOVAKIA": "SLLOVAKI",
+      "SLOVENIA": "SLLOVENI",
+      "SPAIN": "SPANJË",
+      "SWEDEN": "SUEDI",
+      "SWITZERLAND": "ZVICËR",
+      "TURKEY": "TURQI",
+      "UKRAINE": "UKRAINË",
+      "USA": "SHBA"
+    }
+  },
+  "workingAtEglo": {
+    "breadcrumb": {
+      "home": "Kryesore",
+      "workingAtEglo": "Puna në EGLO"
+    },
+    "title": "Puna në EGLO",
+    "quote": "Një kompani e mirë mund t'i bëjë aftësitë tuaja të lulëzojnë.",
+    "description": "Njerëzit janë qenie të organizuara. Ne organizohemi në familje, shoqata, institucione, kompani dhe sigurisht, ne organizohemi. Ne jemi në marrëdhënie me njëri-tjetrin sepse nuk mund të ekzistojmë vetëm. Vetëm në shkëmbim dhe në ndërveprim me të tjerët mund të zhvillohemi dhe të arrijmë gjëra që nuk do të ishim në gjendje t'i bënim vetë. Prandaj, ne në EGLO vlerësojmë shumë bashkëpunimin e drejtë dhe të lidhur me performancën.\n\nNe jemi të bindur se të gjithë duhet të kontribuojnë për të krijuar një të ardhme të përbashkët, të suksesshme. Brenda dhe jashtë. Të mëdha dhe të vogla.",
+    "noVacancies": "Aktualisht nuk kemi pozicione të lira."
+  },
+  "header": {
+    "topBar": {
+      "findStore": "Gjej një Dyqan",
+      "customerSupport": "Mbështetje për Klientët",
+      "freeShipping": "Transport Falas për Porosi $70+",
+      "freeShippingMobile": "Transport Falas $70+"
+    },
+    "search": {
+      "placeholder": "Kërko për drita, tifozë dhe më shumë..."
+    },
+    "actions": {
+      "login": "Hyni",
+      "logout": "Dilni",
+      "cart": "Shporta"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "A po endeni në errësirë?",
+      "workingHours": "Orari i Punës",
+      "email": "Email",
+      "contactForm": "Forma e Kontaktit",
+      "getInTouch": "Na Kontaktoni"
+    },
+    "brand": {
+      "description": "Ndriçimi i shtëpive me zgjidhje premium të ndriçimit që nga 1985."
+    },
+    "sections": {
+      "company": "Kompania",
+      "career": "Karriera",
+      "service": "Shërbimi",
+      "socialNetworks": "Rrjetet Sociale"
+    },
+    "links": {
+      "aboutEglo": "Rreth EGLO",
+      "egloWorldwide": "EGLO në mbarë botën",
+      "ourPrinciples": "Parimet tona",
+      "workingAtEglo": "Puna në EGLO",
+      "warrantyConditions": "Kushtet e Garancisë",
+      "properRecycling": "Riciklimi i Duhur",
+      "downloads": "SHKARKIME"
+    },
+    "bottom": {
+      "copyright": "© EGLO Lighting GmbH",
+      "legalText": "Të gjitha çmimet përfshijnë TVSH 18% dhe, ku është e zbatueshme, kostot e dorëzimit mund të shtohen. RRP = Çmimi i Rekomanduar i Shitjes së Prodhuesit",
+      "privacyPolicies": "Politikat e Privatësisë",
+      "print": "Shtyp"
+    }
+  },
+  "navigation": {
+    "inspiration": "Inspirimi",
+    "all": "Të Gjitha",
+    "menu": "Meny"
+  },
+  "categories": {
+    "interiorLights": {
+      "name": "Drita e Brendshme",
+      "description": "Zgjidhje perfekte për ndriçimin e hapësirave tuaja të brendshme",
+      "subcategories": {
+        "smartLighting": {
+          "name": "Ndriçim i Mençur",
+          "description": "Zgjidhje të mençura për ndriçim"
+        },
+        "ledLamps": {
+          "name": "Llamba LED",
+          "description": "Llamba LED efikase energjetikisht",
+          "subcategories": {
+            "ledStrips": {
+              "name": "Shirita LED",
+              "description": "Shirita LED fleksibël për ndriçim dekorativ"
+            },
+            "ledPanel": {
+              "name": "Panele LED",
+              "description": "Panele moderne LED për ndriçim të sheshtë"
+            },
+            "floorLedLights": {
+              "name": "Drita LED e Dyshemesë",
+              "description": "Drita elegante LED e dyshemesë"
+            },
+            "ceilingLedLights": {
+              "name": "Drita LED e Tavanit",
+              "description": "Drita moderne LED e tavanit"
+            },
+            "ledPendantLights": {
+              "name": "Drita e Varur LED",
+              "description": "Drita e varur stilistike LED"
+            },
+            "ledWallLights": {
+              "name": "Drita LED e Murit",
+              "description": "Drita elegante LED e murit"
+            },
+            "ledTableLights": {
+              "name": "Llampa Tavoline LED",
+              "description": "Llampa praktike tavoline LED"
+            }
+          }
+        },
+        "floorLamps": {
+          "name": "Llampa e Dyshemesë",
+          "description": "Llampa të larta të dyshemesë për ndriçim ambient"
+        },
+        "ceilingLights": {
+          "name": "Drita e Tavanit",
+          "description": "Drita klasike e tavanit"
+        },
+        "pendantLights": {
+          "name": "Drita e Varur",
+          "description": "Drita elegante e varur"
+        },
+        "chandeliers": {
+          "name": "Lustra",
+          "description": "Lustra luksoze për hapësira speciale"
+        },
+        "wallLights": {
+          "name": "Drita e Murit",
+          "description": "Drita praktike e murit"
+        },
+        "tableLamps": {
+          "name": "Llampa Tavoline",
+          "description": "Llampa kompakte tavoline"
+        },
+        "trackSpotlights": {
+          "name": "Gjurma me Spotlights",
+          "description": "Sisteme fleksibël për spotlights"
+        },
+        "recessedSurface": {
+          "name": "Drita e Gjendur",
+          "description": "Drita diskrete e gjendur"
+        },
+        "underCabinet": {
+          "name": "Drita nën Kabinet",
+          "description": "Drita praktike nën kabinet"
+        }
+      }
+    },
+    "outdoorLights": {
+      "name": "Drita e Jashtme",
+      "description": "Zgjidhje të qëndrueshme për ndriçimin e jashtëm",
+      "subcategories": {
+        "outdoorLedLights": {
+          "name": "Drita LED e Jashtme",
+          "description": "Drita LED efikase energjetikisht e jashtme"
+        },
+        "solarLights": {
+          "name": "Drita Solare",
+          "description": "Drita ekologjike solare"
+        },
+        "outdoorWallLights": {
+          "name": "Drita e Jashtme e Murit",
+          "description": "Drita e qëndrueshme e jashtme e murit"
+        },
+        "exteriorCeilingLights": {
+          "name": "Drita e Jashtme e Tavanit",
+          "description": "Drita praktike e jashtme e tavanit"
+        },
+        "outdoorSpotlights": {
+          "name": "Spotlights të Jashtëm",
+          "description": "Spotlights të fuqishëm të jashtëm"
+        },
+        "earthLuminaires": {
+          "name": "Drita Tokësore",
+          "description": "Drita elegante tokësore"
+        }
+      }
+    },
+    "ceilingFans": {
+      "name": "Ventilatorët e Tavanit",
+      "description": "Zgjidhje të kombinuara për ventilim dhe ndriçim",
+      "subcategories": {
+        "ceilingFansWithLight": {
+          "name": "Ventilatorët e Tavanit me Dritë",
+          "description": "Ventilatorë me ndriçim të integruar"
+        },
+        "ceilingFansWithoutLight": {
+          "name": "Ventilatorët e Tavanit pa Dritë",
+          "description": "Ventilatorë të pastër pa ndriçim"
+        }
+      }
+    },
+    "illuminants": {
+      "name": "Ndriçuesit",
+      "description": "Ndriçues të cilësisë së lartë për të gjitha nevojat",
+      "subcategories": {
+        "e27": {
+          "name": "Ndriçues E27",
+          "description": "Ndriçues standard E27"
+        },
+        "e14": {
+          "name": "Ndriçues E14",
+          "description": "Ndriçues të vegjël E14"
+        },
+        "g4": {
+          "name": "Ndriçues G4",
+          "description": "Ndriçues special G4"
+        },
+        "g9": {
+          "name": "Ndriçues G9",
+          "description": "Ndriçues kompakt G9"
+        },
+        "gu53": {
+          "name": "Ndriçues GU5.3",
+          "description": "Ndriçues modern GU5.3"
+        },
+        "gu10": {
+          "name": "Ndriçues GU10",
+          "description": "Ndriçues praktik GU10"
+        },
+        "r7s": {
+          "name": "Ndriçues R7S",
+          "description": "Ndriçues linear R7S"
+        },
+        "gx53": {
+          "name": "Ndriçues GX53",
+          "description": "Ndriçues special GX53"
+        }
+      }
+    }
+  },
+  "adminNavigaton": {
+    "title": "Paneli i Administratorit",
+    "subtitle": "Menaxhoni produktet dhe dyqanin tuaj",
+    "actions": {
+      "addProduct": "Shto Produkt",
+      "settings": "Cilësimet"
+    },
+    "stats": {
+      "totalProducts": "Produktet Totale",
+      "activeUsers": "Përdoruesit Aktivë",
+      "categories": "Kategoritë",
+      "revenue": "Të Ardhurat"
+    },
+    "navigation": {
+      "dashboard": "Paneli",
+      "products": "Produktet",
+      "users": "Përdoruesit",
+      "settings": "Cilësimet",
+      "viewSite": "Shiko Sajtin",
+      "logout": "Dil"
+    }
+  },
+  "cart": {
+    "addedToCart": "është shtuar në shportë"
+  },
+  "categoryGrid": {
+    "title": "Zbuloni Asortimentin Tonë",
+    "subtitle": "Eksploroni gamën tonë gjithëpërfshirëse të zgjidhjeve të ndriçimit të dizajnuara për të përmirësuar çdo hapësirë në shtëpinë tuaj",
+    "shopNow": "Bli Tani",
+    "categories": {
+      "pendantLights": {
+        "title": "Drita e Varur",
+        "description": "Pjesë deklarative për zonat e ngrënie dhe kuzhine",
+        "badge": "Popullore"
+      },
+      "ceilingLights": {
+        "title": "Drita e Tavanit",
+        "description": "Ndriçim efikas energjetik për çdo dhomë",
+        "badge": "E Re"
+      },
+      "wallLights": {
+        "title": "Drita e Murit",
+        "description": "Zgjidhje elegante të ndriçimit të montuara në mur",
+        "badge": "Në Zbritje"
+      },
+      "tableLamps": {
+        "title": "Lampa Tavoline",
+        "description": "Ndriçim ambient i përsosur për çdo hapësirë",
+        "badge": "Trend"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Gati për të Transformuar Hapësirën Tuaj?",
+    "subtitle": "Zbuloni koleksionin tonë të zgjidhjeve premium të ndriçimit dhe krijoni ambientin e përsosur për shtëpinë tuaj.",
+    "shopNow": "Bli Tani",
+    "learnMore": "Mëso Më Shumë"
+  },
+  "featuredProducts": {
+    "title": "Produktet e Veçanta",
+    "subtitle": "Të preferuarat e zgjedhura me dorë nga koleksioni ynë i fundit",
+    "viewAllProducts": "Shiko Të Gjitha Produktet",
+    "sale": "Në Zbritje"
+  },
+  "filterGrid": {
+    "filters": "Filtrat",
+    "apply": "Apliko",
+    "resetAllFilters": "Rivendos të gjitha filtrat"
+  },
+  "heroSection": {
+    "title": "Ndriçoni Hapësirën Tuaj",
+    "subtitle": "Perfekte",
+    "exploreCollection": "Eksploro Koleksionin"
+  },
+  "inspirationHero": {
+    "lightingInspiration": "Inspirimi i Ndriçimit",
+    "title": "Ndriçoni Imagjinatën Tuaj",
+    "subtitle": "Zbuloni mundësi të pafundme me koleksionin tonë të kuruar të dizajneve të ndriçimit që transformojnë hapësirat në përvoja të jashtëzakonshme",
+    "exploreIdeas": "Eksploro Idetë",
+    "getConsultation": "Merr Konsultim"
+  },
+  "productCard": {
+    "new": "E RE",
+    "addToCart": "Shto në Shportë"
+  },
+  "roomShowcaseSection": {
+    "title": "Dhomë pas Dhome",
+    "subtitle": "Eksploroni si ndriçimi i duhur transformon çdo hapësirë në shtëpinë tuaj",
+    "featured": "E Veçantë",
+    "rooms": {
+      "livingRoom": {
+        "title": "Dhomë e Gjallë",
+        "subtitle": "Ngrohtë & Tërheqëse",
+        "description": "Krijoni ngrohtësi me ndriçim të shtresuar"
+      },
+      "kitchen": {
+        "title": "Kuzhina",
+        "subtitle": "Funksionale & E Ndritshme",
+        "description": "Ndriçim i përsosur për detyra dhe ambient"
+      },
+      "bedroom": {
+        "title": "Dhomë Gjumi",
+        "subtitle": "Relaksuese & E Butë",
+        "description": "Ndriçim i butë për pushim"
+      },
+      "diningRoom": {
+        "title": "Dhomë Ngrënie",
+        "subtitle": "Elegante & Dramatike",
+        "description": "Ndriçim deklarativ për mbledhje"
+      },
+      "bathroom": {
+        "title": "Banjo",
+        "subtitle": "E Pastër & E Ndritshme",
+        "description": "Ndriçim i kthjellët, i barabartë"
+      }
+    }
+  },
+  "styleGallery": {
+    "title": "Galeria e Stileve",
+    "subtitle": "Inspirohuni nga shtëpitë e vërteta që përfshijnë dizajne të bukura të ndriçimit",
+    "viewMoreInspiration": "Shiko Më Shumë Inspirime",
+    "exploreStyle": "Eksploro Stilin",
+    "items": {
+      "scandinavianMinimalism": {
+        "title": "Minimalizmi Skandinavian",
+        "category": "Dhomë e Gjallë"
+      },
+      "industrialChic": {
+        "title": "Eleganca Industriale",
+        "category": "Kuzhina"
+      },
+      "vintageElegance": {
+        "title": "Eleganca Vintage",
+        "category": "Dhomë Ngrënie"
+      },
+      "naturalWarmth": {
+        "title": "Ngrohtësia Natyrore",
+        "category": "Dhomë Gjumi"
+      },
+      "modernLuxury": {
+        "title": "Luks Modern",
+        "category": "Banjo"
+      },
+      "bohemianSpirit": {
+        "title": "Fryma Bohemiane",
+        "category": "Dhomë e Gjallë"
+      }
+    }
+  },
+  "styleGrid": {
+    "title": "Bli sipas Stilit",
+    "subtitle": "Gjeni ndriçim që përputhet me estetikën tuaj dhe krijon ambientin e përsosur për hapësirën tuaj",
+    "exploreStyle": "Eksploro Stilin",
+    "styles": {
+      "scandinavian": {
+        "title": "Skandinaviane",
+        "description": "Vija të pastra dhe ngrohtësi natyrore"
+      },
+      "natural": {
+        "title": "Natyrore",
+        "description": "Tekstura organike dhe tonet e tokës"
+      },
+      "vintage": {
+        "title": "Vintage",
+        "description": "Elegancë e përjetshme dhe bukuri klasike"
+      },
+      "industrial": {
+        "title": "Industriale",
+        "description": "Materiale të papërpunuara dhe sofistikim urban"
+      }
+    }
+  },
+  "trendingIdeasSection": {
+    "trending": "Çfarë Është në Trend",
+    "title": "Idetë e Fundit të Ndriçimit",
+    "subtitle": "Qëndroni përpara me trendet dhe inovacionet më të reja në ndriçimin e shtëpisë",
+    "views": "pamje",
+    "ideas": {
+      "smartLightingAutomation": {
+        "title": "Automatizimi i Ndriçimit të Mençur",
+        "description": "Kontrolloni ndriçimin e gjithë shtëpisë me komanda zanore dhe orare",
+        "readTime": "3 min lexim",
+        "trend": "Në Rritje"
+      },
+      "layeredLightingDesign": {
+        "title": "Dizajni i Ndriçimit të Shtresuar",
+        "description": "Kombinoni ndriçimin ambient, detyrë dhe aksent për ndriçim të përsosur",
+        "readTime": "5 min lexim",
+        "trend": "Në Rritje"
+      },
+      "sustainableLedSolutions": {
+        "title": "Zgjidhje LED të Qëndrueshme",
+        "description": "Ndriçim efikas energjetik që është i bukur dhe miqësor me mjedisin",
+        "readTime": "4 min lexim",
+        "trend": "E Re"
+      }
+    }
+  },
+  "categoryPage": {
+    "breadcrumb": {
+      "home": "Kryesore"
+    },
+    "readMore": "Lexo më shumë",
+    "categories": "Kategoritë",
+    "expand": "Zgjero",
+    "collapse": "Tkurr",
+    "filters": "Filtrat"
+  },
+  "subcategoryPage": {
+    "breadcrumb": {
+      "home": "Kryesore"
+    },
+    "readMore": "Lexo më shumë",
+    "categories": "Kategoritë",
+    "expand": "Zgjero",
+    "collapse": "Tkurr",
+    "filters": "Filtrat"
+  },
+  "categories": {
+    "interiorLights": {
+      "name": "Drita e brendshme",
+      "description": "Një dritë e përsosur për çdo dhomë. Theksoni unikezinë e dhomës suaj përmes kombinimit të ngjyrave të buta, mobiljeve elegante dhe teknologjisë më të fundit të ndriçimit.\n\nÇdo dhomë është e ndryshme; ju dëshironi të krijoni një atmosferë relaksuese në një dhe të punoni në një tjetër. Zbuloni zgjedhjen tonë të gjerë të produkteve të ndriçimit dhe gjeni stilin tuaj personal.",
+      "subcategories": {
+        "smartLighting": {
+          "name": "Ndriçimi i Mençur",
+          "description": "Ne kemi zgjidhjet më të mira të ndriçimit të mençur për shtëpinë tuaj, me gamën tonë EGLO Connect dhe EGLO Access. Ka diçka për çdo familje.\n\nKontrolloni ndriçimin tuaj përmes një kontrolli të largët ose një aplikacioni. Është i përshtatshëm dhe i lehtë për t'u përdorur, me prekjen e një butoni."
+        },
+        "ledLamps": {
+          "name": "Llamba LED",
+          "description": "LED ofron teknologjinë më të mirë të ndriçimit në treg. Kujdesuni për centët tuaj me drita moderne LED dhe kujdesuni për planetin tonë.\n\nLargohuni nga llambat tradicionale, LED-të ndriçojnë të ardhmen. Zbuloni një zgjedhje të gjerë dizajnesh të jashtëzakonshme për çdo shije.",
+          "subcategories": {
+            "ledStrips": {
+              "name": "Shirita LED",
+              "description": "Shiritat LED ofrojnë ndriçim indirekt në shtëpinë tuaj për të ekspozuar dhe ndriçuar pjesë specifike të mobiljeve dhe dekorit të shtëpisë, duke përfshirë raftet e librave ose kornizat."
+            },
+            "ledPanel": {
+              "name": "Paneli LED",
+              "description": "Panelet LED ofrojnë ndriçim fantastik përmes një dizajni diskret dhe stili të integruar. Me aftësinë për t'u integruar në mur ose tavan, panelet tona LED ofrojnë ndriçim të mirë në zonën tuaj të dëshiruar duke kursyer hapësirë në shtëpinë tuaj."
+            },
+            "floorLedLights": {
+              "name": "Drita LED e dyshemesë",
+              "description": "Llambat e dyshemesë LED ofrojnë qëndrueshmëri, efikasitet dhe lëvizshmëri. Llambat tona të dyshemesë LED jo vetëm që plotësojnë ndriçimin tuaj bazë, por mund të përputhen në mënyrë të përsosur për të përmirësuar dhe ndriçuar brendësinë tuaj."
+            },
+            "ceilingLedLights": {
+              "name": "Drita LED e tavanit",
+              "description": "Dritat LED të tavanit ofrojnë ndriçim të ndritshëm me konsum të ulët energjie. Ndryshe nga dritat tradicionale të tavanit, ato janë afërsisht 90% më efikase dhe zgjasin deri në 50 herë më gjatë."
+            },
+            "ledPendantLights": {
+              "name": "Drita LED e varur",
+              "description": "Gama jonë e ndriçimit të varur LED ofron si stilin bashkëkohor ashtu edhe teknologjinë efikase energjetik. Gama e gjerë ofron ndriçim për çdo brendësi, si p.sh. thjesht ndriçimi i tryezës së dhomës së ngrënies, plotësimi i dekorit tuaj dhe kursimi i parave në të njëjtën kohë."
+            },
+            "ledWallLights": {
+              "name": "Drita LED e murit",
+              "description": "Dritat tona LED të murit ofrojnë një zgjidhje ndriçimi efikase energjetik dhe të qëndrueshme. Ky produkt mund të përshtatet dhe përdoret në shumë mënyra, për të krijuar ndriçim indirekt ose të drejtpërdrejtë në shtëpinë tuaj."
+            },
+            "ledTableLights": {
+              "name": "Drita LED e tavolinës",
+              "description": "Koleksioni ynë i llambave të tavolinës LED nuk është vetëm funksional, por mund të përdoret gjithashtu si një element dekorativ në shtëpinë tuaj. Teknologjia LED ofron produkte ndriçimi që janë efikase energjetik dhe miqësore për mjedisin."
+            }
+          }
+        },
+        "floorLamps": {
+          "name": "Llamba e dyshemesë",
+          "description": "Shtoni ndriçim karakteristik në shtëpinë tuaj dhe ndriçoni zonat me koleksionin tonë të llambave të dyshemesë. Të gjithanshme dhe moderne, duke ju lejuar të përshtatni stilin e llambave me shtëpinë tuaj."
+        },
+        "ceilingLights": {
+          "name": "Drita e tavanit",
+          "description": "Drita e tavanit është një nga elementët më të rëndësishëm të ndriçimit të brendshëm në çdo dhomë. Ajo ofron ndriçim bazë dhe ndriçon hapësirën tuaj të brendshme."
+        },
+        "pendantLights": {
+          "name": "Drita e varur",
+          "description": "Dritat e varura janë pika e ndritshme qendrore për dhomën tuaj. Dizajnet tona moderne dhe të pazakonta ofrojnë një prekje unike për shtëpinë tuaj."
+        },
+        "chandeliers": {
+          "name": "Lustra",
+          "description": "Lustrat tona ofrojnë luks dhe madhështi. Transformoni shtëpinë tuaj dhe sillni shkëlqim dhe glamur në hapësirën tuaj të jetesës."
+        },
+        "wallLights": {
+          "name": "Drita e murit",
+          "description": "Dritat e murit janë të gjithanshme, të zbatueshme, universale dhe praktike. Pavarësisht nëse përdoren për ndriçimin e korridoreve, banjove, si drita aksente ose llamba leximi."
+        },
+        "tableLamps": {
+          "name": "Llamba e tavolinës",
+          "description": "Pavarësisht nëse po lexoni ose punoni, përmirësoni ndriçimin tuaj të brendshëm me një llambë të mahnitshme tavoline. Llambat tona të tavolinës ofrojnë një shumëllojshmëri dizajnesh nga trendike në klasike."
+        },
+        "trackSpotlights": {
+          "name": "Pista dhe spotlights",
+          "description": "Pista dhe spotlights janë një mënyrë e mirë për të shtuar një prekje dritë në shtëpinë tuaj. Ato janë të përsosura për lexim, punë, ose thjesht relaksim."
+        },
+        "recessedSurface": {
+          "name": "Drita e gdhendur dhe e montuar në sipërfaqe",
+          "description": "Dritat e gdhendura dhe të montuara në sipërfaqe janë një mënyrë e mirë për të shtuar një prekje dritë në shtëpinë tuaj."
+        },
+        "underCabinet": {
+          "name": "Drita nën kabinet",
+          "description": "Ju nuk dëshironi hije në sipërfaqen tuaj të punës kur po prisni dhe copëtoni në kuzhinë. Ne kemi zgjidhjen për ju!"
+        }
+      }
+    },
+    "outdoorLights": {
+      "name": "Drita e jashtme",
+      "description": "Ndriçoni hapësirat tuaja të jashtme me gamën tonë gjithëpërfshirëse të zgjidhjeve të ndriçimit të jashtëm. Nga dritat e shtigjeve të kopshtit deri te ndriçimi sofistikuar i fasadës.",
+      "subcategories": {
+        "outdoorLedLights": {
+          "name": "Drita LED e jashtme",
+          "description": "Dëshironi ta bëni jashtëm e shtëpisë suaj efikase energjetik? Atëherë thjesht përdorni produktet tona të ndriçimit të jashtëm LED."
+        },
+        "solarLights": {
+          "name": "Drita solare",
+          "description": "Përfitimet e ndriçimit solar janë se është i gjithanshëm, praktik dhe i qëndrueshëm. Ju nuk keni nevojë për një lidhje elektrike."
+        },
+        "outdoorWallLights": {
+          "name": "Drita e jashtme e murit",
+          "description": "Dritat tona të jashtme të murit ofrojnë një zgjidhje të mirë për nevojat tuaja të ndriçimit të jashtëm."
+        },
+        "exteriorCeilingLights": {
+          "name": "Drita e jashtme e tavanit",
+          "description": "Dritat tona të jashtme të murit ofrojnë një zgjidhje të mirë për nevojat tuaja të ndriçimit të jashtëm."
+        },
+        "outdoorSpotlights": {
+          "name": "Spotlights të jashtëm",
+          "description": "Kush nuk e do natyrën? Ne besojmë se hapësira juaj e jetesës nuk përfundon në derën e verandës."
+        },
+        "earthLuminaires": {
+          "name": "Luminarët e tokës",
+          "description": "Kush nuk e do natyrën? Ne besojmë se hapësira juaj e jetesës nuk përfundon në derën e verandës."
+        }
+      }
+    },
+    "ceilingFans": {
+      "name": "Tifozët e tavanit",
+      "description": "Qëndroni të freskët dhe të rehatshëm me zgjedhjen tonë të tifozëve të tavanit që kombinojnë stilin me funksionalitetin.",
+      "subcategories": {
+        "ceilingFansWithLight": {
+          "name": "Tifozët e tavanit me dritë",
+          "description": "Tifozët tanë të tavanit me dritë janë projektuar për të ofruar si ftohje ashtu edhe ndriçim."
+        },
+        "ceilingFansWithoutLight": {
+          "name": "Tifozët e tavanit pa dritë",
+          "description": "Tifozët tanë të tavanit pa dritë janë projektuar për të ofruar ftohje dhe ventilim."
+        }
+      }
+    },
+    "illuminants": {
+      "name": "Iluminantët",
+      "description": "Gjeni llambat dhe iluminantët e përsosur për pajisjet tuaja të ndriçimit. Gama jonë gjithëpërfshirëse përfshin lloje të ndryshme soketesh.",
+      "subcategories": {
+        "e27": {
+          "name": "E27"
+        },
+        "e14": {
+          "name": "E14"
+        },
+        "g4": {
+          "name": "G4"
+        },
+        "g9": {
+          "name": "G9"
+        },
+        "gu53": {
+          "name": "GU5.3"
+        },
+        "gu10": {
+          "name": "GU10"
+        },
+        "r7s": {
+          "name": "R7S"
+        },
+        "gx53": {
+          "name": "GX53"
+        }
+      }
+    }
+  },
+  "products": {
+    "mogano3Ceiling": {
+      "name": "MOGANO 3 drita e tavanit",
+      "description": "Dritë elegante e tavanit me ndërtim çeliku premium dhe përfundim rërë. Karakteristika iluminant ekskluziv me soket E27 për performancë optimale të ndriçimit."
+    },
+    "mogano2Ceiling": {
+      "name": "MOGANO 2 drita e tavanit",
+      "description": "Dritë kompakte e tavanit me ndërtim çeliku dhe përfundim rërë. Ideale për hapësira më të vogla me iluminant ekskluziv dhe soket E27."
+    },
+    "moganoWallLight": {
+      "name": "Drita e murit MOGANO",
+      "description": "Dritë elegante e murit me ndërtim çeliku dhe mbrojtje IP44. Karakteristika iluminant ekskluziv me soket E27 për përdorim të jashtëm."
+    },
+    "huesaTableLamp": {
+      "name": "Llamba tavoline HUESA",
+      "description": "Llambë tavoline moderne me teknologji LED, lidhje USB dhe dizajn rezistent ndaj spërkatjes. Karakteristika funksionalitet i zbutur dhe funksionim me bateri për përdorim të gjithanshëm të jashtëm."
+    },
+    "huesaGardenLight": {
+      "name": "Drita e kopshtit HUESA",
+      "description": "Dritë e kopshtit me cilësi të lartë me teknologji LED dhe mbrojtje IP65. Karakteristika sensor lëvizjeje, funksionalitet i zbutur dhe funksionim me bateri."
+    },
+    "moganoPathLight": {
+      "name": "Drita e shtegut MOGANO",
+      "description": "Dritë elegante e shtegut me ndërtim çeliku dhe mbrojtje IP65. Karakteristika sensor lëvizjeje dhe iluminant ekskluziv për përdorim të jashtëm."
+    },
+    "e27Bulb": {
+      "name": "Llambë E27",
+      "description": "Llambë LED E27 me cilësi të lartë me prodhim 470 lumen dhe temperaturë ngjyrë të ngrohtë të bardhë. Efikase energjetik me konsum energjie 2.2W."
+    },
+    "e14Bulb": {
+      "name": "Llambë E14",
+      "description": "Llambë LED E14 kompakte me prodhim 350 lumen dhe formë qiri. Efikase energjetik me konsum energjie 1.8W."
+    },
+    "gu10Bulb": {
+      "name": "Llambë GU10",
+      "description": "Llambë LED GU10 me cilësi të lartë me prodhim 600 lumen dhe dizajn spot. Efikase energjetik me konsum energjie 4.5W."
+    },
+    "fallback": {
+      "name": "Produkt Shembull",
+      "description": "Ky është një produkt shembull për demonstrim."
+    }
+    ,
+    "saliterasCCeiling": {
+      "description": "Dritë tavani inteligjente me trup çeliku dhe kontur plastik. Mbështet zbutje, kontroll përmes aplikacionit, ndryshim ngjyrash dhe telekomandë. Garanci 5-vjeçare."
+    },
+    "fueva5SurfaceMounted": {
+      "description": "Dritë LED e montuar në sipërfaqe me trup çeliku dhe kontur plastik, me sensor lëvizjeje të integruar. Klasa e energjisë F dhe garanci 5-vjeçare."
+    },
+    "cobStripeLightStrip": {
+      "description": "Shirit LED me 5600 lm dhe 3000K dritë të bardhë të ngrohtë. Kontur plastik, klasa e energjisë G dhe garanci 5-vjeçare."
+    },
+    "competa2WallCeiling": {
+      "description": "Panel LED për mur/tavan me 2400 lm dhe 3000K. Trup çeliku me kontur plastik, klasa e energjisë F dhe garanci 5-vjeçare."
+    },
+    "boyalFloorLamp": {
+      "description": "Llambë dyshemeje LED me 3400 lm dhe 3000K. Kombinim çeliku dhe druri me kontur plastik. Dizajn elegant dhe garanci 5-vjeçare."
+    }
+    ,
+    "huertaECeilingLight": {
+      "description": "Dritë tavani HUERTA-E me trup çeliku dhe kontur plastik. Teknologji LED me dritë të ngrohtë 3000K dhe garanci 5-vjeçare."
+    },
+    "riodevaCPendantLights": {
+      "description": "Drita të varura RIODEVA-C me dizajn modern dhe teknologji LED. Ideale për tryezën e ngrënies ose kuzhinë, me dritë të ngrohtë të këndshme."
+    },
+    "casciaWallLight": {
+      "description": "Dritë muri CASCIA me linja të pastra dhe burim LED. Efikase energjetikisht me performancë jetëgjatë."
+    },
+    "almudainaTableLamp": {
+      "description": "Llambë tavoline ALMUDAINA me pamje moderne. Teknologji LED dhe ndriçim i butë për tavolinë pune ose komodin."
+    },
+    "scigliatiFloorLamp": {
+      "description": "Llambë dyshemeje SCIGLIATI me profil elegant. Ofron ndriçim të këndshëm ambienti dhe stil bashkëkohor."
+    },
+    "cabezasEWallCeilingLight": {
+      "description": "Dritë muri/tavani CABEZAS-E me teknologji LED të integruar. Përdorim i gjithanshëm me dizajn funksional."
+    },
+    "draceraPendantLights": {
+      "description": "Drita të varura DRACERA me stil modern dhe burim LED. Të përsosura si pikë qendrore mbi tryezë ose banak."
+    },
+    "ersekaChandelier": {
+      "description": "Lluster ERSEKA me pamje të rafinuar. Kombinon materiale cilësore dhe ndriçim të këndshëm për ambiente përfaqësuese."
+    },
+    "pogliolaWallLight": {
+      "description": "Dritë muri POGLIOLA me dizajn minimalist. Teknologji LED për ndriçim efikas dhe të njëtrajtshëm."
+    },
+    "recisoESpot": {
+      "description": "Spot RECISO-E për ndriçim të drejtuar. Ideal për theksimin e detajeve dhe sipërfaqeve ekspozuese."
+    },
+    "extendUndercabLight": {
+      "description": "Dritë nën kabinet EXTEND për ndriçim praktik të punës në kuzhinë. Montim i lehtë dhe efikasitet energjetik."
+    }
+    ,
+    "g4Bulb": {
+      "description": "Llambë G4 me bazë speciale, e përshtatshme për llamba kompakte. Ofron dritë LED efikase dhe jetëgjatësi."
+    },
+    "ledBulbG93w3000kWarmLightDimmable320lm": {
+      "description": "Llambë LED G9 3W 3000K, e zbutshme, 320 lm. Ideale për ndriçim të ngrohtë dhe të këndshëm me konsum të ulët."
+    },
+    "gu53Bulb": {
+      "description": "Llambë GU5.3 me dritë të drejtuar, e shkëlqyer për ndriçim aksentues. Efikase dhe jetëgjatë."
+    },
+    "r7sBulb": {
+      "description": "Llambë lineare R7S, e përshtatshme për llamba dhe reflektorë specialë. Ofron ndriçim të fortë dhe të njëtrajtshëm."
+    },
+    "gx53Bulb": {
+      "description": "Llambë GX53 me profil të hollë, ideale për llamba të ulëta dhe zgjidhje të futura. Teknologji LED efikase energjetikisht."
+    }
+    ,
+    "marineCeilingLightWithFan": {
+      "description": "MARINELLA dritë tavani me ventilator – kombinon ndriçimin dhe ftohjen në një pajisje moderne. Teknologji LED, funksionim i qetë dhe garanci 5-vjeçare."
+    },
+    "portseaCeilingFan": {
+      "description": "PORTSEA ventilator tavani pa dritë – ventilim efikas dhe motor i qetë, ideal për dhoma ndenjeje dhe gjumi. Dizajn modern dhe performancë e besueshme."
+    }
+    ,
+    "solarLight": {
+      "description": "Dritë solare me bateri të integruar – instalim i lehtë pa kabllo, zgjidhje e qëndrueshme dhe praktike për ndriçim të jashtëm."
+    },
+    "barcarolaEWallLight": {
+      "description": "BARCAROLA-E dritë muri për përdorim të jashtëm. Kombinon pamje elegante me konstruksion të qëndrueshëm dhe teknologji LED."
+    },
+    "piloneWallCeilingLight": {
+      "description": "PILONE dritë muri/tavani për ambient të jashtëm – montim universal, ndriçim i qëndrueshëm dhe dizajn modern minimalist."
+    },
+    "filettiFloodLight": {
+      "description": "FILETTI prozhektor (flood light) për ndriçim të fuqishëm të oborreve dhe fasadave. Konstruksion i mbrojtur dhe dritë LED efikase."
+    },
+    "roffiaFloorLamp": {
+      "description": "ROFFIA llambë dyshemeje me pamje natyrale. Dizajn që shton ngrohtësi dhe teksturë, me ndriçim të këndshëm ambienti."
+    }
+  },
+  "productPage": {
+    "breadcrumb": {
+      "home": "Kryesore"
+    },
+    "addToCart": "Shto në shportë",
+    "quantity": "Sasia",
+    "downloadManual": "Shkarko manualin e udhëzimeve",
+    "warrantyConditions": "Kushtet e garancisë",
+    "dimensions": "Dimensionet",
+    "lightInformation": "Informacione për dritën",
+    "switchingInformation": "Informacione për ndërprerjen",
+    "technicalInformation": "Informacione teknike",
+    "otherInformation": "Informacione të tjera"
+  },
+  "principles": {
+    "breadcrumb": {
+      "home": "Kryesore",
+      "principles": "Parimet tona"
+    },
+    "title": "Parimet tona",
+    "pillarsTitle": "Shtyllat e procesit tonë të mendimit",
+    "summary": "Zhvillimi i EGLO ka qenë dhe vazhdon të jetë i shpejtë: nga numri i punonjësve, përmes zhvillimit të shitjeve, deri te objektet e prodhimit dhe kompanitë e shitjes rreth botës: Këto norma të rritjes tejkalojnë tregun, për të siguruar që EGLO do të vazhdojë të rritet shëndetshëm në të ardhmen, zhvillimi i biznesit drejtohet me qëndrueshmëri të madhe. Ne mbajmë atë që është provuar dhe testuar dhe lëmë hapësirë për të lënë parimet tona të rriten së bashku me ne.",
+    "principles": {
+      "established": {
+        "word": "stabilizuar",
+        "title": "Ruajtja dhe zhvillimi i asaj që ka provuar vlerën e saj",
+        "description": "Numrat tanë pothuajse u dyfishuan në 10 vjet (nga 2007 deri në 2017). Numri i kompanive në Grupin e Shitjeve EGLO u rrit pesëfish në 20 vjet (1997 deri në 2017).\n\nSekreti i parë i suksesit është fakti që EGLO është ende një biznes familjar dhe për këtë arsye mund të operojë në mënyrë të pavarur. Kontrolli mbi zhvillimin, prodhimin dhe logjistikën ishte gjithashtu një faktor suksesi që nga fillimi. Ne mësojmë çdo ditë dhe investojmë në klientët tanë, partnerët tanë, punonjësit tanë, produktet tanë dhe shërbimin tonë në mbarë botën."
+      },
+      "global": {
+        "word": "lobal",
+        "title": "Global dhe lokal",
+        "description": "Rreth 70 kompani EGLO janë përgjegjëse për shitjet, shërbimin dhe, në disa raste, marketingun rajonal në më shumë se 50 vende rreth botës. Pavarësisht progresit të ndërkombëtarizimit dhe globalizimit, ne jemi dhe mbetemi një kompani familjare me rrënjë tironese.\n\nMendimi global - veprimi lokal po bëhet gjithnjë e më shumë \"Pyetja lokale - veprimi global\" ndërsa rriten rrjetet dhe nevojat rajonale. Klientët i përkasin një kulture rajonale dhe kanë nevojat e tyre të ndryshme, edhe nëse operojnë dhe blejnë në mbarë botën. T'i bashkojmë dhe pajtimojmë këto dy bota është një nga aspiratat tona më të larta."
+      },
+      "light": {
+        "word": "dritë",
+        "title": "Drita që frymëzon masat",
+        "description": "Pothuajse çdo dy orë, një produkt i ri zhvillohet në EGLO. Kjo është një mesatare prej pothuajse katër produkteve të reja për ditë pune.\n\nVetëm vitin e kaluar, më shumë se 900 produkte të reja u zhvilluan dhe u lançuan në treg. Gama aktuale e produkteve përfshin më shumë se 4,000 artikuj. Çdo ditë ne prodhojmë 80,000 ndriçues në mbarë botën.\n\nEdhe për ne, këto shifra janë gjithmonë mbresëlënëse. Megjithatë, ka shumë më tepër për të kuptuar njerëzit dhe dritat. Duhen antena të shkëlqyera, aftësia për të dëgjuar dhe vizionin për të kuptuar atë që klientët duan të shohin dhe të përjetojnë në shtëpitë e tyre në të ardhmen. Ju mund të bëheni një trendsetter vetëm duke vendosur drejtimin vetë. Ne monitorojmë vazhdimisht zhvillimet në dritë, jetesë dhe jetë, thithim impulset krijuese nga fusha të ndryshme dhe shqyrtojmë trendet sipas potencialit të tyre."
+      },
+      "organization": {
+        "word": "rganizim",
+        "title": "Të fortë së bashku",
+        "description": "Rritja e shpejtë e EGLO ka qenë gjithmonë një sfidë për organizimin tonë. Kuptimi ynë rajonal-global dhe fakti që EGLO është ende dhe do të mbetet në pronësi familjare na ndihmon të përmbushim këtë sfidë. Për ne, madhësia është një forcë vetëm nëse gjërat funksionojnë në një shkallë të vogël. Për këtë arsye, vendndodhja është thelbësore: për klientët tanë, partnerët tanë dhe punonjësit tanë. Vetëm në njësi të organizuara përsosur dhe të lidhura mirë mund të menaxhojmë dhe zhvillojmë 4,700 punonjës në mbarë botën.\n\nNjë aspekt tjetër interesant i filozofisë së organizatave tona i referohet mbështetjes së vazhdueshme të partnerëve tanë. Ne konsiderojmë vazhdimisht punonjësit tanë, jo vetëm klientin: \"Çfarë nevojitet dhe çfarë mund të ofrojmë? Ku nevojitet eksperienca jonë? Çfarë presin punonjësit tanë dhe cilat janë kërkesat tona?\" Ne duam të kuptojmë dhe të gjejmë një rrugë të përbashkët për sukses. Në këtë mënyrë krijohen partneritetet që do të ruhen për dekada. Kjo kulturë nuk është vetëm pjesë e organizimit tonë, por deklarata jonë personale për të gjithë ata që punojnë me ne."
+      }
+    }
+  },
+  "warranty": {
+    "breadcrumb": {
+      "home": "Kryesore",
+      "warranty": "Kushtet e garancisë"
+    },
+    "title": "Kushtet e garancisë",
+    "cards": {
+      "nonEuCh": {
+        "title": "Kushtet e garancisë për jo-BE dhe Zvicër"
+      },
+      "professional": {
+        "title": "Kushtet profesionale të garancisë së dritës"
+      },
+      "euCh": {
+        "title": "Kushtet e garancisë BE dhe Zvicër"
+      },
+      "beChFans": {
+        "title": "Kushtet e garancisë për tifozët BE dhe Zvicër"
+      }
+    }
+  },
+  "search": {
+    "title": "Kërkimi i produkteve",
+    "results": {
+      "title": "Rezultatet e kërkimit për: {query}",
+      "noProducts": "Nuk u gjetën produkte",
+      "found": "U gjetën {count} produkte"
+    },
+    "search": {
+      "placeholder": "Kërkoni ndriçime, tifozë dhe më shumë...",
+      "button": "Kërko"
+    },
+    "noResults": {
+      "title": "Nuk u gjetën produkte",
+      "description": "Përpiquni të përshtatni termat e kërkimit tuaj ose shfletoni kategoritë tona",
+      "browseButton": "Shfletoni të gjitha produktet"
+    },
+    "startSearch": {
+      "title": "Filloni kërkimin tuaj",
+      "description": "Shkruani një term kërkimi më sipër për të gjetur produkte"
+    }
+  },
+  "productSpecs": {
+    "labels": {
+      "materialNumber": "Numri i materialit",
+      "enclosureMaterial": "Materiali i mbështjellësit",
+      "enclosureColour": "Ngjyra e mbështjellësit",
+      "protectionDegree": "Shkalla e mbrojtjes",
+      "illuminant1": "Iluminant 1",
+      "lampSocket1": "Soketi i llambës 1",
+      "articleHeight": "Lartësia e artikullit",
+      "articleDiameter": "Diametri i artikullit",
+      "netWeight": "Pesha neto",
+      "protectionClass": "Klasa e mbrojtjes",
+      "mainsVoltage": "Tensioni i rrjetit",
+      "operationVoltage": "Tensioni i punës",
+      "switchType": "Lloji i çelësit",
+      "battery": "Bateri",
+      "illuminantType1": "Lloji i iluminantit 1",
+      "eanUpc": "EAN/UPC",
+      "fullLumen": "Lumen të plotë",
+      "fullKelvin": "Kelvin të plotë",
+      "itemNumber": "Numri i artikullit",
+      "material": "Materiali",
+      "color": "Ngjyra",
+      "securityLevel": "Niveli i sigurisë",
+      "includedLight1": "Drita e përfshirë 1",
+      "openingType1": "Lloji i hapjes 1",
+      "functions": "Funksione",
+      "warranty": "Garanci",
+      "heightInMmIn": "Lartësi (në mm/inç)",
+      "diameterInMmIn": "Diametër (në mm/inç)",
+      "baseDiameterInMmIn": "Diametri i bazës (në mm/inç)",
+      "weight": "Pesha",
+      "batteryQuantity": "Sasia e baterisë",
+      "securityClass": "Klasa e sigurisë",
+      "workingVoltage": "Tensioni i punës",
+      "typeOfCircuitBreaker": "Lloji i ndërprerësit",
+      "batteryType": "Lloji i baterisë",
+      "lighterType1": "Lloji i dritës 1",
+      "watt1": "Vat 1",
+      "technology": "Teknologji",
+      "colorWarmth": "Ngrohtësia e ngjyrës",
+      "nominalBrightness": "Ndriçimi nominal",
+      "shapeOfTheBulb": "Forma e llambës",
+      "partsInOnePackage": "Pjesë në një paketë",
+      "energySavingClass": "Klasa e kursimit të energjisë",
+      "lengthInMmIn": "Gjatësi (në mm/inç)",
+      "brightnessLevels90120Full": "Nivelet e ndriçimit (90°/120°/të plotë)",
+      "nominalLifespan": "Jetëgjatësia nominale",
+      "changingCycles": "Ciklet e ndezjes",
+      "nominalLampPowerInW": "Fuqia nominale e llambës (në W)",
+      "ratedLampPowerAccuracy01w": "Fuqia e vlerësuar e llambës (saktësi 0.1W)",
+      "equivalentToIncandescentLampW": "E barabartë me llambën inkandeshente (W)",
+      "lampPowerFactor": "Faktori i fuqisë",
+      "lifespanAssessment": "Vlerësimi i jetëgjatësisë",
+      "ambientTemperature": "Temperatura ambjentale",
+      "kw1000h": "kW/1000h",
+      "glassContourMaterial": "Materiali i qelqit/konturit",
+      "glassContourColor": "Ngjyra e qelqit/konturit",
+      "instructionManual": "Manuali i udhëzimeve",
+      "infoChangeabilityLightSourceDriver": "Info zëvendësueshmëria burim/driver",
+      "sensorAngle": "Këndi i sensorit",
+      "distanceInMeters": "Distanca (në metra)",
+      "baseLenghtInMmIn": "Gjatësia e bazës (në mm/inç)",
+      "baseWidht": "Gjerësia e bazës"
+    }
+  },
+  "signup": {
+    "title": "Krijo Llogari",
+    "subtitle": "Regjistrohuni për të aksesuar të gjitha veçoritë",
+    "email": "Email",
+    "password": "Fjalëkalimi",
+    "confirmPassword": "Konfirmo fjalëkalimin",
+    "placeholders": {
+      "email": "Shkruani adresën tuaj të emailit",
+      "password": "Shkruani fjalëkalimin tuaj",
+      "confirmPassword": "Konfirmoni fjalëkalimin tuaj"
+    },
+    "acceptTerms": "Prano",
+    "termsOfService": "Kushtet e Shërbimit",
+    "and": "dhe",
+    "privacyPolicy": "Politikat e Privatësisë",
+    "createAccount": "Krijo Llogari",
+    "orContinueWith": "ose vazhdo me",
+    "alreadyHaveAccount": "Keni tashmë një llogari?",
+    "signIn": "Hyni"
+  },
+  "login": {
+    "title": "Hyni në Llogarinë Tuaj",
+    "subtitle": "Mirë se vini përsëri! Hyni për të vazhduar",
+    "email": "Email",
+    "password": "Fjalëkalimi",
+    "placeholders": {
+      "email": "Shkruani adresën tuaj të emailit",
+      "password": "Shkruani fjalëkalimin tuaj"
+    },
+    "rememberMe": "Më mbaj mend",
+    "forgotPassword": "Harruat fjalëkalimin?",
+    "signIn": "Hyni",
+    "orContinueWith": "ose vazhdo me",
+    "dontHaveAccount": "Nuk keni llogari?",
+    "signUp": "Regjistrohuni"
+  },
+  "admin": {
+    "title": "Paneli i Administratorit",
+    "subtitle": "Menaxhoni produktet dhe dyqanin tuaj",
+    "actions": {
+      "addProduct": "Shto Produkt",
+      "settings": "Cilësimet"
+    },
+    "stats": {
+      "totalProducts": "Produktet Totale",
+      "activeUsers": "Përdoruesit Aktivë",
+      "categories": "Kategoritë",
+      "revenue": "Të Ardhurat"
+    },
+    "navigation": {
+      "dashboard": "Paneli",
+      "products": "Produktet",
+      "users": "Përdoruesit",
+      "settings": "Cilësimet",
+      "viewSite": "Shiko Sajtin",
+      "logout": "Dil"
+    }
+  },
+  "adminSignup": {
+    "title": "Testimi i Regjistrimit të Administratorit",
+    "subtitle": "Testoni regjistrimin direkt me API-në e jashtme",
+    "endpoint": "API Endpoint: /api/auth/register",
+    "useCorsProxy": "Përdor CORS Proxy",
+    "corsNote": "Shënim: Nëse keni probleme CORS, aktivizoni proxy-në CORS më poshtë.",
+    "corsDemo": "Kliko këtu",
+    "testingRegistration": "Po testoj regjistrimin...",
+    "testRegistration": "Testo Regjistrimin",
+    "backToSignup": "Kthehu te Regjistrimi i Zakonshëm",
+    "description": "Kjo faqe është për testimin e regjistrimit direkt me API-në e jashtme.",
+    "consoleNote": "Shiko konsolën për detaje të plota të përgjigjes."
+  },
+  "adminNavigation": {
+    "title": "Paneli i Administratorit",
+    "subtitle": "Menaxhoni produktet dhe dyqanin tuaj",
+    "actions": {
+      "addProduct": "Shto Produkt",
+      "settings": "Cilësimet"
+    },
+    "stats": {
+      "totalProducts": "Produktet Totale",
+      "activeUsers": "Përdoruesit Aktivë",
+      "categories": "Kategoritë",
+      "revenue": "Të Ardhurat"
+    },
+    "navigation": {
+      "dashboard": "Paneli",
+      "products": "Produktet",
+      "users": "Përdoruesit",
+      "settings": "Cilësimet",
+      "viewSite": "Shiko Sajtin",
+      "logout": "Dil"
+    }
+  }
+}

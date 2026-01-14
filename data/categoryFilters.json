@@ -1,0 +1,132 @@
+{
+  "filters": [
+    {
+      "key": "price",
+      "label": "Price",
+      "options": [
+        { "value": "0-50", "label": "$0 - $50" },
+        { "value": "50-100", "label": "$50 - $100" },
+        { "value": "100-200", "label": "$100 - $200" },
+        { "value": "200+", "label": "$200+" }
+      ]
+    },
+    {
+      "key": "room",
+      "label": "Room / Field",
+      "options": [
+        { "value": "living-room", "label": "Living Room" },
+        { "value": "bedroom", "label": "Bedroom" },
+        { "value": "kitchen", "label": "Kitchen" },
+        { "value": "bathroom", "label": "Bathroom" },
+        { "value": "dining-room", "label": "Dining Room" },
+        { "value": "office", "label": "Office" }
+      ]
+    },
+    {
+      "key": "product-type",
+      "label": "Product-Type",
+      "options": [
+        { "value": "ceiling-light", "label": "Ceiling Light" },
+        { "value": "wall-light", "label": "Wall Light" },
+        { "value": "table-lamp", "label": "Table Lamp" },
+        { "value": "floor-lamp", "label": "Floor Lamp" },
+        { "value": "pendant-light", "label": "Pendant Light" }
+      ]
+    },
+    {
+      "key": "functions",
+      "label": "Functions",
+      "options": [
+        { "value": "dimmable", "label": "Dimmable" },
+        { "value": "smart-control", "label": "Smart Control" },
+        { "value": "motion-sensor", "label": "Motion Sensor" },
+        { "value": "color-changing", "label": "Color Changing" }
+      ]
+    },
+    {
+      "key": "design",
+      "label": "Design",
+      "options": [
+        { "value": "modern", "label": "Modern" },
+        { "value": "traditional", "label": "Traditional" },
+        { "value": "industrial", "label": "Industrial" },
+        { "value": "minimalist", "label": "Minimalist" },
+        { "value": "vintage", "label": "Vintage" }
+      ]
+    },
+    {
+      "key": "technology",
+      "label": "Technology",
+      "options": [
+        { "value": "led", "label": "LED" },
+        { "value": "incandescent", "label": "Incandescent" },
+        { "value": "fluorescent", "label": "Fluorescent" },
+        { "value": "smart-led", "label": "Smart LED" }
+      ]
+    },
+    {
+      "key": "material",
+      "label": "Material",
+      "options": [
+        { "value": "metal", "label": "Metal" },
+        { "value": "glass", "label": "Glass" },
+        { "value": "plastic", "label": "Plastic" },
+        { "value": "wood", "label": "Wood" },
+        { "value": "fabric", "label": "Fabric" }
+      ]
+    },
+    {
+      "key": "color",
+      "label": "Color",
+      "options": [
+        { "value": "white", "label": "White" },
+        { "value": "black", "label": "Black" },
+        { "value": "silver", "label": "Silver" },
+        { "value": "gold", "label": "Gold" },
+        { "value": "bronze", "label": "Bronze" },
+        { "value": "colored", "label": "Colored" }
+      ]
+    },
+    {
+      "key": "flames",
+      "label": "Number of flames",
+      "options": [
+        { "value": "1", "label": "1 Flame" },
+        { "value": "2", "label": "2 Flames" },
+        { "value": "3", "label": "3 Flames" },
+        { "value": "4", "label": "4 Flames" },
+        { "value": "5+", "label": "5+ Flames" }
+      ]
+    },
+    {
+      "key": "throat",
+      "label": "Throat",
+      "options": [
+        { "value": "small", "label": "Small" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" },
+        { "value": "extra-large", "label": "Extra Large" }
+      ]
+    },
+    {
+      "key": "bulbs-included",
+      "label": "Bulbs included",
+      "options": [
+        { "value": "yes", "label": "Yes" },
+        { "value": "no", "label": "No" },
+        { "value": "optional", "label": "Optional" }
+      ]
+    },
+    {
+      "key": "energy-class",
+      "label": "Energy saving class",
+      "options": [
+        { "value": "a", "label": "Class A" },
+        { "value": "b", "label": "Class B" },
+        { "value": "c", "label": "Class C" },
+        { "value": "d", "label": "Class D" },
+        { "value": "e", "label": "Class E" }
+      ]
+    }
+  ]
+} 
