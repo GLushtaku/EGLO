@@ -1,8 +1,8 @@
-import { HeroSection } from "../../components/HeroSection"
-import { CategoryGrid } from "../../components/CategoryGrid"
-import { FeaturedProducts } from "../../components/FeaturedProducts"
-import { CTASection } from "../../components/CtaSection"
-import { StyleGrid } from "../../components/StyleGrid"
+import { HeroSection } from '../../components/HeroSection';
+import { CategoryGrid } from '../../components/CategoryGrid';
+import { FeaturedProducts } from '../../components/FeaturedProducts';
+import { CTASection } from '../../components/CtaSection';
+import { StyleGrid } from '../../components/StyleGrid';
 
 export default function HomePage() {
   return (
@@ -13,5 +13,5 @@ export default function HomePage() {
       <FeaturedProducts />
       <CTASection />
     </div>
-  )
+  );
 }

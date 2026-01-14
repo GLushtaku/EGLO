@@ -36,7 +36,7 @@ export function CategoryGrid() {
   const { categories, loading, error } = useCategories() as {
     categories: ApiCategory[];
     loading: boolean;
-    error: unknown;
+    error: Error | null;
   };
 
   // If your API returns both parent and subcategories, this keeps only top-level ones

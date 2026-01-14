@@ -1,9 +1,14 @@
-import { useRouter } from 'next/navigation'
+'use client';
+
+import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function RedirectPage() {
-  const router = useRouter()
+  const router = useRouter();
 
-  router.replace('/mk') 
+  useEffect(() => {
+    router.replace('/mk');
+  }, [router]);
 
-  return null
+  return null;
 }

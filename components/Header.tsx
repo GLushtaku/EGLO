@@ -13,7 +13,6 @@ import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { useAuth } from "../lib/useAuth";
-import { useCategories } from "@/hooks/useCategories";
 
 interface HeaderProps {
   noPadding?: boolean;
@@ -29,9 +28,6 @@ export function Header({ noPadding = false }: HeaderProps) {
   const locale = params.locale as string;
   const t = useTranslations("header");
   const { user, isAuthenticated, logout } = useAuth();
-  const { data } = useCategories();
-
-  console.log('Categories', data);
 
   // Add debugging
   if (process.env.NODE_ENV === "development") {
