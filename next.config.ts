@@ -9,10 +9,21 @@ const nextConfig: NextConfig = {
     API_URL: process.env.NEXT_API_URL,
   },
   async rewrites() {
+    const apiUrl = process.env.NEXT_API_URL;
+    
+    // Only add rewrite if NEXT_API_URL is set
+    if (!apiUrl) {
+      console.warn('⚠️ NEXT_API_URL is not set, skipping API rewrite');
+      return [];
+    }
+
+    // Ensure the URL doesn't end with a slash
+    const baseUrl = apiUrl.endsWith('/') ? apiUrl.slice(0, -1) : apiUrl;
+    
     return [
       {
         source: "/api/:path*",
-        destination: `${process.env.NEXT_API_URL}/api/:path*`, // <- use the HTTP port from launchSettings.json
+        destination: `${baseUrl}/api/:path*`,
       },
     ];
   },
